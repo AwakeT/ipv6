@@ -1,7 +1,7 @@
 VERSION 5.00
 Begin VB.Form smartplus 
    BackColor       =   &H00FFFFFF&
-   Caption         =   "½¨ÖşÓÃÄÜ²É¼¯ÏµÍ³"
+   Caption         =   "å»ºç­‘ç”¨èƒ½é‡‡é›†ç³»ç»Ÿ"
    ClientHeight    =   10935
    ClientLeft      =   2865
    ClientTop       =   255
@@ -9,11 +9,11 @@ Begin VB.Form smartplus
    LinkTopic       =   "Form1"
    ScaleHeight     =   10935
    ScaleWidth      =   15120
-   StartUpPosition =   2  'ÆÁÄ»ÖĞĞÄ
+   StartUpPosition =   2  'å±å¹•ä¸­å¿ƒ
    Begin VB.CommandButton Command1 
       Appearance      =   0  'Flat
       BackColor       =   &H8000000D&
-      Caption         =   "×¢ÏúµÇÂ¼"
+      Caption         =   "æ³¨é”€ç™»å½•"
       Height          =   375
       Left            =   1800
       MaskColor       =   &H8000000D&
@@ -148,9 +148,9 @@ Begin VB.Form smartplus
    End
    Begin VB.Frame Frame4 
       BackColor       =   &H00404000&
-      Caption         =   "Ä¿Â¼µ¼º½"
+      Caption         =   "ç›®å½•å¯¼èˆª"
       BeginProperty Font 
-         Name            =   "»ªÎÄÖĞËÎ"
+         Name            =   "åæ–‡ä¸­å®‹"
          Size            =   12
          Charset         =   134
          Weight          =   400
@@ -166,7 +166,7 @@ Begin VB.Form smartplus
       Width           =   3015
       Begin VB.PictureBox TreeView1 
          BeginProperty Font 
-            Name            =   "ËÎÌå"
+            Name            =   "å®‹ä½“"
             Size            =   12
             Charset         =   134
             Weight          =   400
@@ -197,7 +197,7 @@ Begin VB.Form smartplus
    End
    Begin VB.Frame Frame3 
       BackColor       =   &H00404000&
-      Caption         =   "ÎÂ¶È¡¢Êª¶È"
+      Caption         =   "æ¸©åº¦ã€æ¹¿åº¦"
       ForeColor       =   &H8000000B&
       Height          =   2535
       Left            =   3120
@@ -216,7 +216,7 @@ Begin VB.Form smartplus
    End
    Begin VB.Frame Frame2 
       BackColor       =   &H00FFFFFF&
-      Caption         =   "ÄÜºÄÊı¾İÏÔÊ¾Çø"
+      Caption         =   "èƒ½è€—æ•°æ®æ˜¾ç¤ºåŒº"
       ForeColor       =   &H00FFFFFF&
       Height          =   4575
       Left            =   3120
@@ -273,7 +273,7 @@ Begin VB.Form smartplus
    End
    Begin VB.Frame Frame1 
       BackColor       =   &H00404000&
-      Caption         =   "µçÁ¿¡¢¹¦ÂÊ¡¢µçÁ÷¡¢µçÑ¹"
+      Caption         =   "ç”µé‡ã€åŠŸç‡ã€ç”µæµã€ç”µå‹"
       ForeColor       =   &H8000000B&
       Height          =   2535
       Left            =   3120
@@ -357,7 +357,7 @@ Begin VB.Form smartplus
    End
    Begin VB.Label Label2 
       BackStyle       =   0  'Transparent
-      Caption         =   "¡ò»ùÓÚÒÆ¶¯IPv6µÄÖÇ»ÛĞ£Ô°½¨ÖşÓÃÄÜÊı¾İ²É¼¯ÖÕ¶ËVer2.0"
+      Caption         =   "â—åŸºäºç§»åŠ¨IPv6çš„æ™ºæ…§æ ¡å›­å»ºç­‘ç”¨èƒ½æ•°æ®é‡‡é›†ç»ˆç«¯Ver2.0"
       ForeColor       =   &H000000FF&
       Height          =   255
       Index           =   1
@@ -369,7 +369,7 @@ Begin VB.Form smartplus
    Begin VB.Label Label4 
       AutoSize        =   -1  'True
       BackStyle       =   0  'Transparent
-      Caption         =   "»¶Ó­Ê¹ÓÃ±¾ÏµÍ³"
+      Caption         =   "æ¬¢è¿ä½¿ç”¨æœ¬ç³»ç»Ÿ"
       ForeColor       =   &H00FFFFFF&
       Height          =   180
       Index           =   1
@@ -381,7 +381,7 @@ Begin VB.Form smartplus
    Begin VB.Label Label4 
       AutoSize        =   -1  'True
       BackStyle       =   0  'Transparent
-      Caption         =   "ÄúºÃ£¡¹ÜÀíÔ±"
+      Caption         =   "æ‚¨å¥½ï¼ç®¡ç†å‘˜"
       ForeColor       =   &H00FFFFFF&
       Height          =   180
       Index           =   0
@@ -393,7 +393,7 @@ Begin VB.Form smartplus
    Begin VB.Image Image2 
       Height          =   495
       Left            =   360
-      Picture         =   "»¶Ó­Ê¹ÓÃ.frx":0000
+      Picture         =   "æ¬¢è¿ä½¿ç”¨.frx":0000
       Stretch         =   -1  'True
       Top             =   1680
       Width           =   495
@@ -402,7 +402,7 @@ Begin VB.Form smartplus
       BackStyle       =   0  'Transparent
       Caption         =   "An Hui Jian Zhu University"
       BeginProperty Font 
-         Name            =   "Á¥Êé"
+         Name            =   "éš¶ä¹¦"
          Size            =   10.5
          Charset         =   134
          Weight          =   400
@@ -425,9 +425,9 @@ Begin VB.Form smartplus
    End
    Begin VB.Label Label1 
       BackStyle       =   0  'Transparent
-      Caption         =   "½¨ÖşÓÃÄÜÊı¾İ²É¼¯ÏµÍ³"
+      Caption         =   "å»ºç­‘ç”¨èƒ½æ•°æ®é‡‡é›†ç³»ç»Ÿ"
       BeginProperty Font 
-         Name            =   "»ªÎÄ¿¬Ìå"
+         Name            =   "åæ–‡æ¥·ä½“"
          Size            =   21.75
          Charset         =   134
          Weight          =   400
@@ -445,9 +445,9 @@ Begin VB.Form smartplus
    End
    Begin VB.Label Label1 
       BackStyle       =   0  'Transparent
-      Caption         =   "°²»Õ½¨Öş´óÑ§"
+      Caption         =   "å®‰å¾½å»ºç­‘å¤§å­¦"
       BeginProperty Font 
-         Name            =   "»ªÎÄĞĞ¿¬"
+         Name            =   "åæ–‡è¡Œæ¥·"
          Size            =   21.75
          Charset         =   134
          Weight          =   400
@@ -473,7 +473,7 @@ Begin VB.Form smartplus
    Begin VB.Image Image1 
       Height          =   1245
       Left            =   120
-      Picture         =   "»¶Ó­Ê¹ÓÃ.frx":348A
+      Picture         =   "æ¬¢è¿ä½¿ç”¨.frx":348A
       Stretch         =   -1  'True
       Top             =   0
       Width           =   1245
@@ -503,8 +503,8 @@ Attribute VB_Exposed = False
 Dim pluglastTime
 Dim pluglastTime2
 Dim i As Single
-Dim LastTimeR As New ADODB.Recordset 'ÓÃÓÚÈ¡×îºóÒ»ÌõµçÁ¿µÈ±íµÄ¼ÇÂ¼Ê±¼äµÄ¼ÇÂ¼¶ÔÏó
-Dim LastTimeR2 As New ADODB.Recordset 'ÓÃÓÚÈ¡×îºóÒ»ÌõÎÂ¶ÈµÈ±íµÄ¼ÇÂ¼Ê±¼äµÄ¼ÇÂ¼¶ÔÏó
+Dim LastTimeR As New ADODB.Recordset 'ç”¨äºå–æœ€åä¸€æ¡ç”µé‡ç­‰è¡¨çš„è®°å½•æ—¶é—´çš„è®°å½•å¯¹è±¡
+Dim LastTimeR2 As New ADODB.Recordset 'ç”¨äºå–æœ€åä¸€æ¡æ¸©åº¦ç­‰è¡¨çš„è®°å½•æ—¶é—´çš„è®°å½•å¯¹è±¡
 Dim strCodeplugmacAddress
 
 
@@ -516,7 +516,7 @@ Dim strCodeplugmacAddress
 
 
 Private Sub Command1_Click()
- MsgBox "ÓÃ»§×¢Ïú³É¹¦"
+ MsgBox "ç”¨æˆ·æ³¨é”€æˆåŠŸ"
     smartplus.Hide
     Form1.Show
 End Sub
@@ -525,8 +525,8 @@ Private Sub Form_Initialize()
 Adodc1.ConnectionString = "Provider=SQLOLEDB.1;Persist Security Info=False;User ID=sa;Password=123456;Initial Catalog=shuihu;Data Source=127.0.0.1"
 
 Adodc1.CommandType = adCmdText
-TotalData.ConnectionString = "Provider=SQLOLEDB.1;Persist Security Info=False;User ID=sa;Password=123456;Initial Catalog=shuihu;Data Source=127.0.0.1" 'È«²¿²å×ùĞÅÏ¢±íµÄado¿Ø¼ş
-TotalTemp.ConnectionString = "Provider=SQLOLEDB.1;Persist Security Info=False;User ID=sa;Password=123456;Initial Catalog=shuihu;Data Source=127.0.0.1" 'È«²¿²å×ùĞÅÏ¢±íµÄado¿Ø¼ş
+TotalData.ConnectionString = "Provider=SQLOLEDB.1;Persist Security Info=False;User ID=sa;Password=123456;Initial Catalog=shuihu;Data Source=127.0.0.1" 'å…¨éƒ¨æ’åº§ä¿¡æ¯è¡¨çš„adoæ§ä»¶
+TotalTemp.ConnectionString = "Provider=SQLOLEDB.1;Persist Security Info=False;User ID=sa;Password=123456;Initial Catalog=shuihu;Data Source=127.0.0.1" 'å…¨éƒ¨æ’åº§ä¿¡æ¯è¡¨çš„adoæ§ä»¶
 TotalData.CommandType = adCmdText
 TotalTemp.CommandType = adCmdText
 buildingactive(0).ConnectionString = "Provider=SQLOLEDB.1;Persist Security Info=False;User ID=sa;Password=123456;Initial Catalog=shuihu;Data Source=127.0.0.1"
@@ -558,147 +558,147 @@ TotalTemp.RecordSource = "select top 100 TEMP,HUMIDITY,MAC,COLLECTIP,DBTIME from
 
 
 
-VOLTAGEchart.chartType = VtChChartType2dXY 'µçÑ¹¶şÎ¬É¢µãÍ¼£¬ÏÔÊ¾Ò»ÌõÇúÏß
-CURRENTChart.chartType = VtChChartType2dXY 'µçÁ÷¶şÎ¬É¢µãÍ¼£¬ÏÔÊ¾Ò»ÌõÇúÏß
-ACTIVEENERGYChart.chartType = VtChChartType2dXY 'µçÁ¿¶şÎ¬É¢µãÍ¼£¬ÏÔÊ¾Ò»ÌõÇúÏß
-TEMPChart.chartType = VtChChartType2dXY 'ÎÂ¶È¶şÎ¬É¢µãÍ¼£¬ÏÔÊ¾Ò»ÌõÇúÏß
-With ACTIVEENERGYChart '³õÊ¼»¯µçÁ¿ÇúÏßÑùÊ½
- .chartType = VtChChartType2dXY '¶şÎ¬É¢µãÍ¼£¬Ö»ÄÜÏÔÊ¾Ò»ÌõÇúÏß×¢Òâ±¾Óï¾äµÄÎ»ÖÃ£¬Èç¹û·ÅÔÚ×îºóXÖá×ø±ê½«ÏÔÊ¾³ÉĞ¡Êı¶ø·ÇÊ±¼ä¸ñÊ½
-        'Í¼ÉÏÖ»»­ÌõÇúÏß
+VOLTAGEchart.chartType = VtChChartType2dXY 'ç”µå‹äºŒç»´æ•£ç‚¹å›¾ï¼Œæ˜¾ç¤ºä¸€æ¡æ›²çº¿
+CURRENTChart.chartType = VtChChartType2dXY 'ç”µæµäºŒç»´æ•£ç‚¹å›¾ï¼Œæ˜¾ç¤ºä¸€æ¡æ›²çº¿
+ACTIVEENERGYChart.chartType = VtChChartType2dXY 'ç”µé‡äºŒç»´æ•£ç‚¹å›¾ï¼Œæ˜¾ç¤ºä¸€æ¡æ›²çº¿
+TEMPChart.chartType = VtChChartType2dXY 'æ¸©åº¦äºŒç»´æ•£ç‚¹å›¾ï¼Œæ˜¾ç¤ºä¸€æ¡æ›²çº¿
+With ACTIVEENERGYChart 'åˆå§‹åŒ–ç”µé‡æ›²çº¿æ ·å¼
+ .chartType = VtChChartType2dXY 'äºŒç»´æ•£ç‚¹å›¾ï¼Œåªèƒ½æ˜¾ç¤ºä¸€æ¡æ›²çº¿æ³¨æ„æœ¬è¯­å¥çš„ä½ç½®ï¼Œå¦‚æœæ”¾åœ¨æœ€åXè½´åæ ‡å°†æ˜¾ç¤ºæˆå°æ•°è€Œéæ—¶é—´æ ¼å¼
+        'å›¾ä¸Šåªç”»æ¡æ›²çº¿
         .ColumnCount = 2
         .Plot.Axis(VtChAxisIdX).ValueScale.Auto = False
 .Plot.Axis(VtChAxisIdY).ValueScale.Auto = False
- '// ÉèÖÃ×î´óÖµ
+ '// è®¾ç½®æœ€å¤§å€¼
      .Plot.Axis(VtChAxisIdY).ValueScale.Maximum = 1
-       '// ÉèÖÃ×îĞ¡Öµ
+       '// è®¾ç½®æœ€å°å€¼
       .Plot.Axis(VtChAxisIdY).ValueScale.Minimum = 0
   .Plot.Axis(VtChAxisIdX).ValueScale.Minimum = 0
 
-     '//ÉèÖÃÍ¼±í±êÌâ
-      .Title.Text = "µçÁ¿»ã×Ü"
+     '//è®¾ç½®å›¾è¡¨æ ‡é¢˜
+      .Title.Text = "ç”µé‡æ±‡æ€»"
 
 
- .Plot.Axis(VtChAxisIdX).ValueScale.MajorDivision = 3 'XÖáÖ÷ÒªÍø¸ñÊıÁ¿
-    .Plot.Axis(VtChAxisIdY).ValueScale.MajorDivision = 6 'YÖáÖ÷ÒªÍø¸ñÊıÁ¿
-    .Plot.Axis(VtChAxisIdX).ValueScale.MinorDivision = 0 'XÖá´ÎÒªÍø¸ñÊıÁ¿
-    .Plot.Axis(VtChAxisIdY).ValueScale.MinorDivision = 0 'YÖá´ÎÒªÍø¸ñÊıÁ¿
+ .Plot.Axis(VtChAxisIdX).ValueScale.MajorDivision = 3 'Xè½´ä¸»è¦ç½‘æ ¼æ•°é‡
+    .Plot.Axis(VtChAxisIdY).ValueScale.MajorDivision = 6 'Yè½´ä¸»è¦ç½‘æ ¼æ•°é‡
+    .Plot.Axis(VtChAxisIdX).ValueScale.MinorDivision = 0 'Xè½´æ¬¡è¦ç½‘æ ¼æ•°é‡
+    .Plot.Axis(VtChAxisIdY).ValueScale.MinorDivision = 0 'Yè½´æ¬¡è¦ç½‘æ ¼æ•°é‡
  .Plot.Axis(VtChAxisIdX).Labels(1).Format = "hh:mm:ss"
-    .Plot.Axis(VtChAxisIdX).AxisGrid.MajorPen.Style = VtPenStyleNull '//XÖáÍø¸ñ²»ÏÔÊ¾
-   .Plot.Axis(VtChAxisIdY).AxisGrid.MajorPen.Style = VtPenStyleDotted '//YÖáÍø¸ñÎªÊµÏß
-   .Plot.AutoLayout = False   '//¸ÄÎªÊÖ¶¯ÉèÖÃ´óĞ¡
-   .Plot.UniformAxis = False '//Ö¸¶¨Í¼±íµÄËùÓĞÖµ×ø±êÖáµÄµ¥Î»¿Ì¶È²»Ò»ÖÂ(X,YÖá×ø±ê²»ĞèÒªÒ»ÖÂ).
+    .Plot.Axis(VtChAxisIdX).AxisGrid.MajorPen.Style = VtPenStyleNull '//Xè½´ç½‘æ ¼ä¸æ˜¾ç¤º
+   .Plot.Axis(VtChAxisIdY).AxisGrid.MajorPen.Style = VtPenStyleDotted '//Yè½´ç½‘æ ¼ä¸ºå®çº¿
+   .Plot.AutoLayout = False   '//æ”¹ä¸ºæ‰‹åŠ¨è®¾ç½®å¤§å°
+   .Plot.UniformAxis = False '//æŒ‡å®šå›¾è¡¨çš„æ‰€æœ‰å€¼åæ ‡è½´çš„å•ä½åˆ»åº¦ä¸ä¸€è‡´(X,Yè½´åæ ‡ä¸éœ€è¦ä¸€è‡´).
 End With
-With CURRENTChart '³õÊ¼»¯µçÁ÷ÇúÏßÑùÊ½
- .chartType = VtChChartType2dXY '¶şÎ¬É¢µãÍ¼£¬Ö»ÄÜÏÔÊ¾Ò»ÌõÇúÏß×¢Òâ±¾Óï¾äµÄÎ»ÖÃ£¬Èç¹û·ÅÔÚ×îºóXÖá×ø±ê½«ÏÔÊ¾³ÉĞ¡Êı¶ø·ÇÊ±¼ä¸ñÊ½
-        'Í¼ÉÏÖ»»­ÌõÇúÏß
+With CURRENTChart 'åˆå§‹åŒ–ç”µæµæ›²çº¿æ ·å¼
+ .chartType = VtChChartType2dXY 'äºŒç»´æ•£ç‚¹å›¾ï¼Œåªèƒ½æ˜¾ç¤ºä¸€æ¡æ›²çº¿æ³¨æ„æœ¬è¯­å¥çš„ä½ç½®ï¼Œå¦‚æœæ”¾åœ¨æœ€åXè½´åæ ‡å°†æ˜¾ç¤ºæˆå°æ•°è€Œéæ—¶é—´æ ¼å¼
+        'å›¾ä¸Šåªç”»æ¡æ›²çº¿
         .ColumnCount = 2
         .Plot.Axis(VtChAxisIdX).ValueScale.Auto = False
 .Plot.Axis(VtChAxisIdY).ValueScale.Auto = False
- '// ÉèÖÃ×î´óÖµ
+ '// è®¾ç½®æœ€å¤§å€¼
      .Plot.Axis(VtChAxisIdY).ValueScale.Maximum = 1
-       '// ÉèÖÃ×îĞ¡Öµ
+       '// è®¾ç½®æœ€å°å€¼
       .Plot.Axis(VtChAxisIdY).ValueScale.Minimum = 0
   .Plot.Axis(VtChAxisIdX).ValueScale.Minimum = 0
 
-     '//ÉèÖÃÍ¼±í±êÌâ
-      .Title.Text = "µçÁ÷"
+     '//è®¾ç½®å›¾è¡¨æ ‡é¢˜
+      .Title.Text = "ç”µæµ"
 
 
- .Plot.Axis(VtChAxisIdX).ValueScale.MajorDivision = 3 'XÖáÖ÷ÒªÍø¸ñÊıÁ¿
-    .Plot.Axis(VtChAxisIdY).ValueScale.MajorDivision = 6 'YÖáÖ÷ÒªÍø¸ñÊıÁ¿
-    .Plot.Axis(VtChAxisIdX).ValueScale.MinorDivision = 0 'XÖá´ÎÒªÍø¸ñÊıÁ¿
-    .Plot.Axis(VtChAxisIdY).ValueScale.MinorDivision = 0 'YÖá´ÎÒªÍø¸ñÊıÁ¿
+ .Plot.Axis(VtChAxisIdX).ValueScale.MajorDivision = 3 'Xè½´ä¸»è¦ç½‘æ ¼æ•°é‡
+    .Plot.Axis(VtChAxisIdY).ValueScale.MajorDivision = 6 'Yè½´ä¸»è¦ç½‘æ ¼æ•°é‡
+    .Plot.Axis(VtChAxisIdX).ValueScale.MinorDivision = 0 'Xè½´æ¬¡è¦ç½‘æ ¼æ•°é‡
+    .Plot.Axis(VtChAxisIdY).ValueScale.MinorDivision = 0 'Yè½´æ¬¡è¦ç½‘æ ¼æ•°é‡
  .Plot.Axis(VtChAxisIdX).Labels(1).Format = "hh:mm:ss"
-    .Plot.Axis(VtChAxisIdX).AxisGrid.MajorPen.Style = VtPenStyleNull '//XÖáÍø¸ñ²»ÏÔÊ¾
-   .Plot.Axis(VtChAxisIdY).AxisGrid.MajorPen.Style = VtPenStyleDotted '//YÖáÍø¸ñÎªÊµÏß
-   .Plot.AutoLayout = False   '//¸ÄÎªÊÖ¶¯ÉèÖÃ´óĞ¡
-   .Plot.UniformAxis = False '//Ö¸¶¨Í¼±íµÄËùÓĞÖµ×ø±êÖáµÄµ¥Î»¿Ì¶È²»Ò»ÖÂ(X,YÖá×ø±ê²»ĞèÒªÒ»ÖÂ).
+    .Plot.Axis(VtChAxisIdX).AxisGrid.MajorPen.Style = VtPenStyleNull '//Xè½´ç½‘æ ¼ä¸æ˜¾ç¤º
+   .Plot.Axis(VtChAxisIdY).AxisGrid.MajorPen.Style = VtPenStyleDotted '//Yè½´ç½‘æ ¼ä¸ºå®çº¿
+   .Plot.AutoLayout = False   '//æ”¹ä¸ºæ‰‹åŠ¨è®¾ç½®å¤§å°
+   .Plot.UniformAxis = False '//æŒ‡å®šå›¾è¡¨çš„æ‰€æœ‰å€¼åæ ‡è½´çš„å•ä½åˆ»åº¦ä¸ä¸€è‡´(X,Yè½´åæ ‡ä¸éœ€è¦ä¸€è‡´).
 End With
-With VOLTAGEchart '³õÊ¼»¯µçÑ¹ÇúÏßÑùÊ½
- .chartType = VtChChartType2dXY '¶şÎ¬É¢µãÍ¼£¬Ö»ÄÜÏÔÊ¾Ò»ÌõÇúÏß×¢Òâ±¾Óï¾äµÄÎ»ÖÃ£¬Èç¹û·ÅÔÚ×îºóXÖá×ø±ê½«ÏÔÊ¾³ÉĞ¡Êı¶ø·ÇÊ±¼ä¸ñÊ½
-        'Í¼ÉÏÖ»»­ÌõÇúÏß
+With VOLTAGEchart 'åˆå§‹åŒ–ç”µå‹æ›²çº¿æ ·å¼
+ .chartType = VtChChartType2dXY 'äºŒç»´æ•£ç‚¹å›¾ï¼Œåªèƒ½æ˜¾ç¤ºä¸€æ¡æ›²çº¿æ³¨æ„æœ¬è¯­å¥çš„ä½ç½®ï¼Œå¦‚æœæ”¾åœ¨æœ€åXè½´åæ ‡å°†æ˜¾ç¤ºæˆå°æ•°è€Œéæ—¶é—´æ ¼å¼
+        'å›¾ä¸Šåªç”»æ¡æ›²çº¿
         .ColumnCount = 2
         .Plot.Axis(VtChAxisIdX).ValueScale.Auto = False
 .Plot.Axis(VtChAxisIdY).ValueScale.Auto = False
- '// ÉèÖÃ×î´óÖµ
+ '// è®¾ç½®æœ€å¤§å€¼
      .Plot.Axis(VtChAxisIdY).ValueScale.Maximum = 1
-       '// ÉèÖÃ×îĞ¡Öµ
+       '// è®¾ç½®æœ€å°å€¼
       .Plot.Axis(VtChAxisIdY).ValueScale.Minimum = 0
   .Plot.Axis(VtChAxisIdX).ValueScale.Minimum = 0
 
-     '//ÉèÖÃÍ¼±í±êÌâ
-      .Title.Text = "µçÑ¹"
+     '//è®¾ç½®å›¾è¡¨æ ‡é¢˜
+      .Title.Text = "ç”µå‹"
 
 
- .Plot.Axis(VtChAxisIdX).ValueScale.MajorDivision = 3 'XÖáÖ÷ÒªÍø¸ñÊıÁ¿
-    .Plot.Axis(VtChAxisIdY).ValueScale.MajorDivision = 6 'YÖáÖ÷ÒªÍø¸ñÊıÁ¿
-    .Plot.Axis(VtChAxisIdX).ValueScale.MinorDivision = 0 'XÖá´ÎÒªÍø¸ñÊıÁ¿
-    .Plot.Axis(VtChAxisIdY).ValueScale.MinorDivision = 0 'YÖá´ÎÒªÍø¸ñÊıÁ¿
+ .Plot.Axis(VtChAxisIdX).ValueScale.MajorDivision = 3 'Xè½´ä¸»è¦ç½‘æ ¼æ•°é‡
+    .Plot.Axis(VtChAxisIdY).ValueScale.MajorDivision = 6 'Yè½´ä¸»è¦ç½‘æ ¼æ•°é‡
+    .Plot.Axis(VtChAxisIdX).ValueScale.MinorDivision = 0 'Xè½´æ¬¡è¦ç½‘æ ¼æ•°é‡
+    .Plot.Axis(VtChAxisIdY).ValueScale.MinorDivision = 0 'Yè½´æ¬¡è¦ç½‘æ ¼æ•°é‡
  .Plot.Axis(VtChAxisIdX).Labels(1).Format = "hh:mm:ss"
-    .Plot.Axis(VtChAxisIdX).AxisGrid.MajorPen.Style = VtPenStyleNull '//XÖáÍø¸ñ²»ÏÔÊ¾
-   .Plot.Axis(VtChAxisIdY).AxisGrid.MajorPen.Style = VtPenStyleDotted '//YÖáÍø¸ñÎªÊµÏß
-   .Plot.AutoLayout = False   '//¸ÄÎªÊÖ¶¯ÉèÖÃ´óĞ¡
-   .Plot.UniformAxis = False '//Ö¸¶¨Í¼±íµÄËùÓĞÖµ×ø±êÖáµÄµ¥Î»¿Ì¶È²»Ò»ÖÂ(X,YÖá×ø±ê²»ĞèÒªÒ»ÖÂ).
+    .Plot.Axis(VtChAxisIdX).AxisGrid.MajorPen.Style = VtPenStyleNull '//Xè½´ç½‘æ ¼ä¸æ˜¾ç¤º
+   .Plot.Axis(VtChAxisIdY).AxisGrid.MajorPen.Style = VtPenStyleDotted '//Yè½´ç½‘æ ¼ä¸ºå®çº¿
+   .Plot.AutoLayout = False   '//æ”¹ä¸ºæ‰‹åŠ¨è®¾ç½®å¤§å°
+   .Plot.UniformAxis = False '//æŒ‡å®šå›¾è¡¨çš„æ‰€æœ‰å€¼åæ ‡è½´çš„å•ä½åˆ»åº¦ä¸ä¸€è‡´(X,Yè½´åæ ‡ä¸éœ€è¦ä¸€è‡´).
 End With
 
 
-With TEMPChart '³õÊ¼»¯ÎÂ¶ÈÇúÏßÑùÊ½
- .chartType = VtChChartType2dXY '¶şÎ¬É¢µãÍ¼£¬Ö»ÄÜÏÔÊ¾Ò»ÌõÇúÏß×¢Òâ±¾Óï¾äµÄÎ»ÖÃ£¬Èç¹û·ÅÔÚ×îºóXÖá×ø±ê½«ÏÔÊ¾³ÉĞ¡Êı¶ø·ÇÊ±¼ä¸ñÊ½
-        'Í¼ÉÏÖ»»­ÌõÇúÏß
+With TEMPChart 'åˆå§‹åŒ–æ¸©åº¦æ›²çº¿æ ·å¼
+ .chartType = VtChChartType2dXY 'äºŒç»´æ•£ç‚¹å›¾ï¼Œåªèƒ½æ˜¾ç¤ºä¸€æ¡æ›²çº¿æ³¨æ„æœ¬è¯­å¥çš„ä½ç½®ï¼Œå¦‚æœæ”¾åœ¨æœ€åXè½´åæ ‡å°†æ˜¾ç¤ºæˆå°æ•°è€Œéæ—¶é—´æ ¼å¼
+        'å›¾ä¸Šåªç”»æ¡æ›²çº¿
         .ColumnCount = 2
         .Plot.Axis(VtChAxisIdX).ValueScale.Auto = False
 .Plot.Axis(VtChAxisIdY).ValueScale.Auto = False
- '// ÉèÖÃ×î´óÖµ
+ '// è®¾ç½®æœ€å¤§å€¼
      .Plot.Axis(VtChAxisIdY).ValueScale.Maximum = 1
-       '// ÉèÖÃ×îĞ¡Öµ
+       '// è®¾ç½®æœ€å°å€¼
       .Plot.Axis(VtChAxisIdY).ValueScale.Minimum = 0
   .Plot.Axis(VtChAxisIdX).ValueScale.Minimum = 0
 
-     '//ÉèÖÃÍ¼±í±êÌâ
-      .Title.Text = "ÎÂ¶ÈÆ½¾ùÖµ"
+     '//è®¾ç½®å›¾è¡¨æ ‡é¢˜
+      .Title.Text = "æ¸©åº¦å¹³å‡å€¼"
 
 
- .Plot.Axis(VtChAxisIdX).ValueScale.MajorDivision = 3 'XÖáÖ÷ÒªÍø¸ñÊıÁ¿
-    .Plot.Axis(VtChAxisIdY).ValueScale.MajorDivision = 6 'YÖáÖ÷ÒªÍø¸ñÊıÁ¿
-    .Plot.Axis(VtChAxisIdX).ValueScale.MinorDivision = 0 'XÖá´ÎÒªÍø¸ñÊıÁ¿
-    .Plot.Axis(VtChAxisIdY).ValueScale.MinorDivision = 0 'YÖá´ÎÒªÍø¸ñÊıÁ¿
+ .Plot.Axis(VtChAxisIdX).ValueScale.MajorDivision = 3 'Xè½´ä¸»è¦ç½‘æ ¼æ•°é‡
+    .Plot.Axis(VtChAxisIdY).ValueScale.MajorDivision = 6 'Yè½´ä¸»è¦ç½‘æ ¼æ•°é‡
+    .Plot.Axis(VtChAxisIdX).ValueScale.MinorDivision = 0 'Xè½´æ¬¡è¦ç½‘æ ¼æ•°é‡
+    .Plot.Axis(VtChAxisIdY).ValueScale.MinorDivision = 0 'Yè½´æ¬¡è¦ç½‘æ ¼æ•°é‡
  .Plot.Axis(VtChAxisIdX).Labels(1).Format = "hh:mm:ss"
-    .Plot.Axis(VtChAxisIdX).AxisGrid.MajorPen.Style = VtPenStyleNull '//XÖáÍø¸ñ²»ÏÔÊ¾
-   .Plot.Axis(VtChAxisIdY).AxisGrid.MajorPen.Style = VtPenStyleDotted '//YÖáÍø¸ñÎªÊµÏß
-   .Plot.AutoLayout = False   '//¸ÄÎªÊÖ¶¯ÉèÖÃ´óĞ¡
-   .Plot.UniformAxis = False '//Ö¸¶¨Í¼±íµÄËùÓĞÖµ×ø±êÖáµÄµ¥Î»¿Ì¶È²»Ò»ÖÂ(X,YÖá×ø±ê²»ĞèÒªÒ»ÖÂ).
+    .Plot.Axis(VtChAxisIdX).AxisGrid.MajorPen.Style = VtPenStyleNull '//Xè½´ç½‘æ ¼ä¸æ˜¾ç¤º
+   .Plot.Axis(VtChAxisIdY).AxisGrid.MajorPen.Style = VtPenStyleDotted '//Yè½´ç½‘æ ¼ä¸ºå®çº¿
+   .Plot.AutoLayout = False   '//æ”¹ä¸ºæ‰‹åŠ¨è®¾ç½®å¤§å°
+   .Plot.UniformAxis = False '//æŒ‡å®šå›¾è¡¨çš„æ‰€æœ‰å€¼åæ ‡è½´çš„å•ä½åˆ»åº¦ä¸ä¸€è‡´(X,Yè½´åæ ‡ä¸éœ€è¦ä¸€è‡´).
 End With
-With HUMIDITYChart '³õÊ¼»¯ÎÂ¶ÈÇúÏßÑùÊ½
- .chartType = VtChChartType2dXY '¶şÎ¬É¢µãÍ¼£¬Ö»ÄÜÏÔÊ¾Ò»ÌõÇúÏß×¢Òâ±¾Óï¾äµÄÎ»ÖÃ£¬Èç¹û·ÅÔÚ×îºóXÖá×ø±ê½«ÏÔÊ¾³ÉĞ¡Êı¶ø·ÇÊ±¼ä¸ñÊ½
-        'Í¼ÉÏÖ»»­ÌõÇúÏß
+With HUMIDITYChart 'åˆå§‹åŒ–æ¸©åº¦æ›²çº¿æ ·å¼
+ .chartType = VtChChartType2dXY 'äºŒç»´æ•£ç‚¹å›¾ï¼Œåªèƒ½æ˜¾ç¤ºä¸€æ¡æ›²çº¿æ³¨æ„æœ¬è¯­å¥çš„ä½ç½®ï¼Œå¦‚æœæ”¾åœ¨æœ€åXè½´åæ ‡å°†æ˜¾ç¤ºæˆå°æ•°è€Œéæ—¶é—´æ ¼å¼
+        'å›¾ä¸Šåªç”»æ¡æ›²çº¿
         .ColumnCount = 2
         .Plot.Axis(VtChAxisIdX).ValueScale.Auto = False
 .Plot.Axis(VtChAxisIdY).ValueScale.Auto = False
- '// ÉèÖÃ×î´óÖµ
+ '// è®¾ç½®æœ€å¤§å€¼
      .Plot.Axis(VtChAxisIdY).ValueScale.Maximum = 1
-       '// ÉèÖÃ×îĞ¡Öµ
+       '// è®¾ç½®æœ€å°å€¼
       .Plot.Axis(VtChAxisIdY).ValueScale.Minimum = 0
   .Plot.Axis(VtChAxisIdX).ValueScale.Minimum = 0
 
-     '//ÉèÖÃÍ¼±í±êÌâ
-      .Title.Text = "Êª¶ÈÆ½¾ùÖµ"
+     '//è®¾ç½®å›¾è¡¨æ ‡é¢˜
+      .Title.Text = "æ¹¿åº¦å¹³å‡å€¼"
 
 
- .Plot.Axis(VtChAxisIdX).ValueScale.MajorDivision = 3 'XÖáÖ÷ÒªÍø¸ñÊıÁ¿
-    .Plot.Axis(VtChAxisIdY).ValueScale.MajorDivision = 6 'YÖáÖ÷ÒªÍø¸ñÊıÁ¿
-    .Plot.Axis(VtChAxisIdX).ValueScale.MinorDivision = 0 'XÖá´ÎÒªÍø¸ñÊıÁ¿
-    .Plot.Axis(VtChAxisIdY).ValueScale.MinorDivision = 0 'YÖá´ÎÒªÍø¸ñÊıÁ¿
+ .Plot.Axis(VtChAxisIdX).ValueScale.MajorDivision = 3 'Xè½´ä¸»è¦ç½‘æ ¼æ•°é‡
+    .Plot.Axis(VtChAxisIdY).ValueScale.MajorDivision = 6 'Yè½´ä¸»è¦ç½‘æ ¼æ•°é‡
+    .Plot.Axis(VtChAxisIdX).ValueScale.MinorDivision = 0 'Xè½´æ¬¡è¦ç½‘æ ¼æ•°é‡
+    .Plot.Axis(VtChAxisIdY).ValueScale.MinorDivision = 0 'Yè½´æ¬¡è¦ç½‘æ ¼æ•°é‡
  .Plot.Axis(VtChAxisIdX).Labels(1).Format = " hh:mm:ss"
-    .Plot.Axis(VtChAxisIdX).AxisGrid.MajorPen.Style = VtPenStyleNull '//XÖáÍø¸ñ²»ÏÔÊ¾
-   .Plot.Axis(VtChAxisIdY).AxisGrid.MajorPen.Style = VtPenStyleDotted '//YÖáÍø¸ñÎªÊµÏß
-   .Plot.AutoLayout = False   '//¸ÄÎªÊÖ¶¯ÉèÖÃ´óĞ¡
-   .Plot.UniformAxis = False '//Ö¸¶¨Í¼±íµÄËùÓĞÖµ×ø±êÖáµÄµ¥Î»¿Ì¶È²»Ò»ÖÂ(X,YÖá×ø±ê²»ĞèÒªÒ»ÖÂ).
+    .Plot.Axis(VtChAxisIdX).AxisGrid.MajorPen.Style = VtPenStyleNull '//Xè½´ç½‘æ ¼ä¸æ˜¾ç¤º
+   .Plot.Axis(VtChAxisIdY).AxisGrid.MajorPen.Style = VtPenStyleDotted '//Yè½´ç½‘æ ¼ä¸ºå®çº¿
+   .Plot.AutoLayout = False   '//æ”¹ä¸ºæ‰‹åŠ¨è®¾ç½®å¤§å°
+   .Plot.UniformAxis = False '//æŒ‡å®šå›¾è¡¨çš„æ‰€æœ‰å€¼åæ ‡è½´çš„å•ä½åˆ»åº¦ä¸ä¸€è‡´(X,Yè½´åæ ‡ä¸éœ€è¦ä¸€è‡´).
 End With
 t = buildtree()
 
 End Sub
 
-Private Sub Form_Load() 'Êı¾İ¿âÁ¬½Ó
+Private Sub Form_Load() 'æ•°æ®åº“è¿æ¥
   
 End Sub
 
@@ -737,41 +737,41 @@ plug(0).Refresh
 plug(1).Refresh
 End Sub
 
-'Dim MyData() As Double 'µçÁ¿Êı×é
-'Dim VOLTAGEData() As Double 'µçÁ÷Êı×é
-'Dim CURRENTData() As Double 'µçÁ÷Êı×é
-Private Sub TreeView1_NodeClick(ByVal Node As MSComctlLib.Node)   '¶ÁÈ¡Êı¾İÖĞµÄ¶ÔÓ³±í²¢ÏÔÊ¾µçÁ¿µÈ
+'Dim MyData() As Double 'ç”µé‡æ•°ç»„
+'Dim VOLTAGEData() As Double 'ç”µæµæ•°ç»„
+'Dim CURRENTData() As Double 'ç”µæµæ•°ç»„
+Private Sub TreeView1_NodeClick(ByVal Node As MSComctlLib.Node)   'è¯»å–æ•°æ®ä¸­çš„å¯¹æ˜ è¡¨å¹¶æ˜¾ç¤ºç”µé‡ç­‰
 
 
-Dim Mydata() As Double 'µçÁ¿Êı×é
-Dim VOLTAGEData() As Double 'µçÁ÷Êı×é
-Dim CURRENTData() As Double 'µçÁ÷Êı×é
-Dim TEMPData() As Double 'ÎÂ¶ÈÊı×é
-Dim HUMIDITYData() As Double 'Êª¶ÈÊı¾İ
-DblSec = 1.1574074074074E-05 'Ê±¼äÀàĞÍµÄÊı¾İ1Ãë¸³Öµ¸ødoubleÀàĞÍ±äÁ¿Ê±µÄÖµ£¬¼´£º1Ãë£¨Ê±¼äÀàĞÍ£©=1.1574074074074E-05£¨doubleÀàĞÍ£©
+Dim Mydata() As Double 'ç”µé‡æ•°ç»„
+Dim VOLTAGEData() As Double 'ç”µæµæ•°ç»„
+Dim CURRENTData() As Double 'ç”µæµæ•°ç»„
+Dim TEMPData() As Double 'æ¸©åº¦æ•°ç»„
+Dim HUMIDITYData() As Double 'æ¹¿åº¦æ•°æ®
+DblSec = 1.1574074074074E-05 'æ—¶é—´ç±»å‹çš„æ•°æ®1ç§’èµ‹å€¼ç»™doubleç±»å‹å˜é‡æ—¶çš„å€¼ï¼Œå³ï¼š1ç§’ï¼ˆæ—¶é—´ç±»å‹ï¼‰=1.1574074074074E-05ï¼ˆdoubleç±»å‹ï¼‰
 
-Dim buildingR As New ADODB.Recordset '¸ùÄ¿Â¼½ÚµãµÄ¼ÇÂ¼¼¯¶ÔÏó£¨½¨ÖşÎï£©
-Dim plugR As New ADODB.Recordset 'Èı¼¶Ä¿Â¼½ÚµãµÄ¼ÇÂ¼¼¯¶ÔÏó£¨²å×ù£©
-Dim collectorR As New ADODB.Recordset '¶ş¼¶Ä¿Â¼½ÚµãµÄ¼ÇÂ¼¼¯¶ÔÏó£¨²É¼¯Æ÷£©
-Dim AreaR As New ADODB.Recordset 'Ò»¼¶Ä¿Â¼½ÚµãµÄ¼ÇÂ¼¼¯¶ÔÏó£¨ÇøÓò£©
+Dim buildingR As New ADODB.Recordset 'æ ¹ç›®å½•èŠ‚ç‚¹çš„è®°å½•é›†å¯¹è±¡ï¼ˆå»ºç­‘ç‰©ï¼‰
+Dim plugR As New ADODB.Recordset 'ä¸‰çº§ç›®å½•èŠ‚ç‚¹çš„è®°å½•é›†å¯¹è±¡ï¼ˆæ’åº§ï¼‰
+Dim collectorR As New ADODB.Recordset 'äºŒçº§ç›®å½•èŠ‚ç‚¹çš„è®°å½•é›†å¯¹è±¡ï¼ˆé‡‡é›†å™¨ï¼‰
+Dim AreaR As New ADODB.Recordset 'ä¸€çº§ç›®å½•èŠ‚ç‚¹çš„è®°å½•é›†å¯¹è±¡ï¼ˆåŒºåŸŸï¼‰
 
 
-'*************************************************************************************************************************ÏÔÊ¾½¨ÖşÎïµÄ»ã×ÜÊı¾İµÄÏà¹ØÇúÏß
+'*************************************************************************************************************************æ˜¾ç¤ºå»ºç­‘ç‰©çš„æ±‡æ€»æ•°æ®çš„ç›¸å…³æ›²çº¿
 buildingR.Open "select * from buildingInformation ", buildingactive(0).ConnectionString
 
-        Do Until buildingR.EOF  '±éÀú¶ş¼¶²É¼¯Æ÷Ä¿Â¼½Úµã²¢ÏÔÊ¾
+        Do Until buildingR.EOF  'éå†äºŒçº§é‡‡é›†å™¨ç›®å½•èŠ‚ç‚¹å¹¶æ˜¾ç¤º
         strCodebuildingtagName = Trim(buildingR.Fields("tagName"))
          
-If Node.Text = strCodebuildingtagName Then 'Ñ¡ÖĞ½¨ÖşÎï½Úµã
+If Node.Text = strCodebuildingtagName Then 'é€‰ä¸­å»ºç­‘ç‰©èŠ‚ç‚¹
 Timerbuilding.Enabled = True
 
 Timerplug.Enabled = False
 Timercollector = False
 Timerarea = False
- VOLTAGEchart.Visible = False '²»ÏÔÊ¾µçÑ¹ÇúÏß±í
- CURRENTChart.Visible = False '²»ÏÔÊ¾µçÁ÷ÇúÏß±í
+ VOLTAGEchart.Visible = False 'ä¸æ˜¾ç¤ºç”µå‹æ›²çº¿è¡¨
+ CURRENTChart.Visible = False 'ä¸æ˜¾ç¤ºç”µæµæ›²çº¿è¡¨
  
-  '*+++++++++++++++++++++++++++++++++++++++++++++»ñÈ¡½¨ÖşÎïµçÁ¿µÈ±í×îºóÒ»Ìõ¼ÇÂ¼µÄÊ±¼ä
+  '*+++++++++++++++++++++++++++++++++++++++++++++è·å–å»ºç­‘ç‰©ç”µé‡ç­‰è¡¨æœ€åä¸€æ¡è®°å½•çš„æ—¶é—´
 
  LastTimeR.Open "Select max(DBTIME) from analyze_electrictable join collectorInformation join areaInformation on collectorInformation.AID=areaInformation.AID on COLLECTIP=collectorInformation.macAddress  group by DBTIME,areaInformation.BID Order by DBTIME", buildingactive(0).ConnectionString
     Do Until LastTimeR.EOF
@@ -780,8 +780,8 @@ Timerarea = False
   Loop
 
  LastTimeR.Close
-  '*+++++++++++++++++++++++++++++++++++++++++++++»ñÈ¡½¨ÖşÎï×îºóÒ»Ìõ¼ÇÂ¼µÄÊ±¼ä
-   '*+++++++++++++++++++++++++++++++++++++++++++++»ñÈ¡²É½¨ÖşÎïÎÂ¶ÈµÈ±í×îºóÒ»Ìõ¼ÇÂ¼µÄÊ±¼ä
+  '*+++++++++++++++++++++++++++++++++++++++++++++è·å–å»ºç­‘ç‰©æœ€åä¸€æ¡è®°å½•çš„æ—¶é—´
+   '*+++++++++++++++++++++++++++++++++++++++++++++è·å–é‡‡å»ºç­‘ç‰©æ¸©åº¦ç­‰è¡¨æœ€åä¸€æ¡è®°å½•çš„æ—¶é—´
  '
  LastTimeR2.Open "select max(DBTIME) from analyze_humituretable join collectorInformation join areaInformation on collectorInformation.AID=areaInformation.AID on COLLECTIP=collectorInformation.macAddress  group by DBTIME,areaInformation.BID Order by DBTIME", buildingactive(1).ConnectionString
     Do Until LastTimeR2.EOF
@@ -790,22 +790,22 @@ Timerarea = False
   Loop
 
  LastTimeR2.Close
-  '*+++++++++++++++++++++++++++++++++++++++++++++»ñÈ¡½¨ÖşÎïÎÂ¶ÈµÈ±í×îºóÒ»Ìõ¼ÇÂ¼µÄÊ±¼ä
+  '*+++++++++++++++++++++++++++++++++++++++++++++è·å–å»ºç­‘ç‰©æ¸©åº¦ç­‰è¡¨æœ€åä¸€æ¡è®°å½•çš„æ—¶é—´
  
  
  
 
- buildingactive(0).RecordSource = "Select sum(ACTIVEENERGY) as µçÁ¿»ã×Ü,DBTIME,areaInformation.BID from analyze_electrictable join collectorInformation join areaInformation on collectorInformation.AID=areaInformation.AID on COLLECTIP=collectorInformation.macAddress where DBTIME>dateadd(MINUTE,-10,cast('" & buildinglastTime & "'as datetime)) group by DBTIME,areaInformation.BID Order by DBTIME"
-             buildingactive(1).RecordSource = "Select avg(cast(TEMP AS int)) as ÎÂ¶ÈÆ½¾ùÖµ,avg(cast(HUMIDITY as int)) as Êª¶ÈÆ½¾ùÖµ,CONVERT(varchar,DBTIME,120),areaInformation.BID from analyze_humituretable join collectorInformation join areaInformation on collectorInformation.AID=areaInformation.AID on COLLECTIP=collectorInformation.macAddress where DBTIME>dateadd(MINUTE,-10,cast('" & buildinglastTime2 & "'as datetime)) group by CONVERT(varchar,DBTIME,120),areaInformation.BID Order by CONVERT(varchar,DBTIME,120)"
+ buildingactive(0).RecordSource = "Select sum(ACTIVEENERGY) as ç”µé‡æ±‡æ€»,DBTIME,areaInformation.BID from analyze_electrictable join collectorInformation join areaInformation on collectorInformation.AID=areaInformation.AID on COLLECTIP=collectorInformation.macAddress where DBTIME>dateadd(MINUTE,-10,cast('" & buildinglastTime & "'as datetime)) group by DBTIME,areaInformation.BID Order by DBTIME"
+             buildingactive(1).RecordSource = "Select avg(cast(TEMP AS int)) as æ¸©åº¦å¹³å‡å€¼,avg(cast(HUMIDITY as int)) as æ¹¿åº¦å¹³å‡å€¼,CONVERT(varchar,DBTIME,120),areaInformation.BID from analyze_humituretable join collectorInformation join areaInformation on collectorInformation.AID=areaInformation.AID on COLLECTIP=collectorInformation.macAddress where DBTIME>dateadd(MINUTE,-10,cast('" & buildinglastTime2 & "'as datetime)) group by CONVERT(varchar,DBTIME,120),areaInformation.BID Order by CONVERT(varchar,DBTIME,120)"
 buildingactive(1).Refresh
 
           buildingactive(0).Refresh
 '
 
-If buildingactive(0).Recordset.RecordCount > 0 Then  'Èç¹ûµçÁ¿¼ÇÂ¼¼¯ÓĞÊı¾İ²ÅÏÔÊ¾µçÁ¿Ö®ºÍÇúÏß
+If buildingactive(0).Recordset.RecordCount > 0 Then  'å¦‚æœç”µé‡è®°å½•é›†æœ‰æ•°æ®æ‰æ˜¾ç¤ºç”µé‡ä¹‹å’Œæ›²çº¿
 
-ReDim Mydata(buildingactive(0).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå²É¼¯Æ÷µçÁ¿»ã×ÜÖ®ºÍµÄÊı×é
-ReDim HUMIDITYData(buildingactive(1).Recordset.RecordCount - 1, 1) As Double 'ÖØ¶¨ÒåÊª¶ÈÆ½¾ùÖµµÄÊı×é
+ReDim Mydata(buildingactive(0).Recordset.RecordCount - 1, 1) 'é‡å®šä¹‰é‡‡é›†å™¨ç”µé‡æ±‡æ€»ä¹‹å’Œçš„æ•°ç»„
+ReDim HUMIDITYData(buildingactive(1).Recordset.RecordCount - 1, 1) As Double 'é‡å®šä¹‰æ¹¿åº¦å¹³å‡å€¼çš„æ•°ç»„
 
        
   For i = 0 To buildingactive(0).Recordset.RecordCount - 1
@@ -815,21 +815,21 @@ ReDim HUMIDITYData(buildingactive(1).Recordset.RecordCount - 1, 1) As Double 'ÖØ
        MaxSec = TempSec: MinSec = TempSec
        Maxdate0 = buildingactive(0).Recordset(1).Value
     End If
-    If TempSec > MaxSec Then MaxSec = TempSec 'ÇóxÖá×î´óÖµ
-    If TempSec < MinSec Then MinSec = TempSec 'ÇóxÖá×îĞ¡Öµ
+    If TempSec > MaxSec Then MaxSec = TempSec 'æ±‚xè½´æœ€å¤§å€¼
+    If TempSec < MinSec Then MinSec = TempSec 'æ±‚xè½´æœ€å°å€¼
 If Maxdate > Maxdata0 Then Maxdata0 = Maxdate
-    TempACTIVEENERGYY = buildingactive(0).Recordset(0).Value '½«µçÁ¿µÚÒ»¸öÊıÉèÎªyÖá×îĞ¡Öµ
+    TempACTIVEENERGYY = buildingactive(0).Recordset(0).Value 'å°†ç”µé‡ç¬¬ä¸€ä¸ªæ•°è®¾ä¸ºyè½´æœ€å°å€¼
 
     If i = 0 Then
 
        MaxACTIVEENERGYY = TempACTIVEENERGYY: MinACTIVEENERGYY = TempACTIVEENERGYY
     End If
 
-    If TempACTIVEENERGYY > MaxACTIVEENERGYY Then MaxACTIVEENERGYY = TempACTIVEENERGYY 'Çó²É¼¯Æ÷µçÁ¿Ö®ºÍYÖá×î´óÖµ
-    If TempACTIVEENERGYY < MinACTIVEENERGYY Then MinACTIVEENERGYY = TempACTIVEENERGYY 'Çó²É¼¯Æ÷µçÁ¿Ö®ºÍYÖá×îĞ¡Öµ
+    If TempACTIVEENERGYY > MaxACTIVEENERGYY Then MaxACTIVEENERGYY = TempACTIVEENERGYY 'æ±‚é‡‡é›†å™¨ç”µé‡ä¹‹å’ŒYè½´æœ€å¤§å€¼
+    If TempACTIVEENERGYY < MinACTIVEENERGYY Then MinACTIVEENERGYY = TempACTIVEENERGYY 'æ±‚é‡‡é›†å™¨ç”µé‡ä¹‹å’ŒYè½´æœ€å°å€¼
 
-  Mydata(i, 0) = TimeValue(buildingactive(0).Recordset(1).Value) 'µÚ2ÁĞÊ±¼äÖµ´æ·ÅµçÁ¿XÖáÊı¾İ
-    Mydata(i, 1) = buildingactive(0).Recordset(0).Value 'µÚ4ÁĞ´æÈëµçÁ¿Ö®ºÍYÖáÊı¾İ
+  Mydata(i, 0) = TimeValue(buildingactive(0).Recordset(1).Value) 'ç¬¬2åˆ—æ—¶é—´å€¼å­˜æ”¾ç”µé‡Xè½´æ•°æ®
+    Mydata(i, 1) = buildingactive(0).Recordset(0).Value 'ç¬¬4åˆ—å­˜å…¥ç”µé‡ä¹‹å’ŒYè½´æ•°æ®
 
        buildingactive(0).Recordset.MoveNext
 
@@ -840,8 +840,8 @@ If Maxdate > Maxdata0 Then Maxdata0 = Maxdate
 
     .Plot.Axis(VtChAxisIdY).ValueScale.Minimum = MinACTIVEENERGYY
 
-           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//µÚÒ»ÌõÎªÀíÏëÇúÏß,ÉèÖÃÎªÀ¶É«
-        .Plot.SeriesCollection(1).Pen.Width = 20 '//ÉèÖÃÎª½ÏÏ¸
+           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//ç¬¬ä¸€æ¡ä¸ºç†æƒ³æ›²çº¿,è®¾ç½®ä¸ºè“è‰²
+        .Plot.SeriesCollection(1).Pen.Width = 20 '//è®¾ç½®ä¸ºè¾ƒç»†
 
           .Plot.Axis(VtChAxisIdX).ValueScale.Maximum = MaxSec * DblSec
            .Plot.Axis(VtChAxisIdX).ValueScale.Minimum = MinSec * DblSec
@@ -851,8 +851,8 @@ End With
 
 '||||||||||||||||||||||||||||||||
 
-ReDim TEMPData(buildingactive(1).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå½¨ÖşÎïµÄÎÂ¶ÈÊı×é
-ReDim HUMIDITYData(buildingactive(1).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå½¨ÖşÎïµÄÎÂ¶ÈÊı×é
+ReDim TEMPData(buildingactive(1).Recordset.RecordCount - 1, 1) 'é‡å®šä¹‰å»ºç­‘ç‰©çš„æ¸©åº¦æ•°ç»„
+ReDim HUMIDITYData(buildingactive(1).Recordset.RecordCount - 1, 1) 'é‡å®šä¹‰å»ºç­‘ç‰©çš„æ¸©åº¦æ•°ç»„
 
 
   For i = 0 To buildingactive(1).Recordset.RecordCount - 1
@@ -861,27 +861,27 @@ ReDim HUMIDITYData(buildingactive(1).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå½¨ÖşÎï
     If i = 0 Then
        MaxSec = TempSec: MinSec = TempSec
     End If
-    If TempSec > MaxSec Then MaxSec = TempSec 'ÇóxÖá×î´óÖµ
-    If TempSec < MinSec Then MinSec = TempSec 'ÇóxÖá×îĞ¡Öµ
+    If TempSec > MaxSec Then MaxSec = TempSec 'æ±‚xè½´æœ€å¤§å€¼
+    If TempSec < MinSec Then MinSec = TempSec 'æ±‚xè½´æœ€å°å€¼
     
-    Temptemp = buildingactive(1).Recordset(0).Value '½«ÎÂ¶ÈµÚÒ»¸öÊıÉèÎªyÖá×îĞ¡Öµ
-    TempHUMIDITYY = buildingactive(1).Recordset(1).Value '½«Êª¶ÈµÚÒ»¸öÊıÉèÎªyÖá×îĞ¡Öµ
+    Temptemp = buildingactive(1).Recordset(0).Value 'å°†æ¸©åº¦ç¬¬ä¸€ä¸ªæ•°è®¾ä¸ºyè½´æœ€å°å€¼
+    TempHUMIDITYY = buildingactive(1).Recordset(1).Value 'å°†æ¹¿åº¦ç¬¬ä¸€ä¸ªæ•°è®¾ä¸ºyè½´æœ€å°å€¼
     If i = 0 Then
        MaxtempY = Temptemp: MintempY = Temptemp
       MaxHUMIDITYY = TempHUMIDITYY: MinHUMIDITYYY = TempHUMIDITYY
 
     End If
     
-    If Temptemp > MaxtempY Then MaxtempY = Temptemp 'Çó½¨ÖşÎïÎÂ¶ÈYÖá×î´óÖµ
-    If Temptemp < MintempY Then MintempY = Temptemp 'Çó½¨ÖşÎïÎÂ¶ÈYÖá×îĞ¡Öµ
-      If TempHUMIDITYY > MaxtempY Then MaxtempY = TempHUMIDITYY 'Çó½¨ÖşÎïÎÂ¶ÈYÖá×î´óÖµ
-    If TempHUMIDITYY < MinHUMIDITYYY Then MinHUMIDITYYY = TempHUMIDITYY 'Çó½¨ÖşÎïÊª¶ÈYÖá×îĞ¡Öµ
+    If Temptemp > MaxtempY Then MaxtempY = Temptemp 'æ±‚å»ºç­‘ç‰©æ¸©åº¦Yè½´æœ€å¤§å€¼
+    If Temptemp < MintempY Then MintempY = Temptemp 'æ±‚å»ºç­‘ç‰©æ¸©åº¦Yè½´æœ€å°å€¼
+      If TempHUMIDITYY > MaxtempY Then MaxtempY = TempHUMIDITYY 'æ±‚å»ºç­‘ç‰©æ¸©åº¦Yè½´æœ€å¤§å€¼
+    If TempHUMIDITYY < MinHUMIDITYYY Then MinHUMIDITYYY = TempHUMIDITYY 'æ±‚å»ºç­‘ç‰©æ¹¿åº¦Yè½´æœ€å°å€¼
     
-  TEMPData(i, 0) = TimeValue(buildingactive(1).Recordset(2).Value) 'µÚ3ÁĞÊ±¼äÖµ´æ·Å½¨ÖşÎïXÖáÊı¾İ
-    TEMPData(i, 1) = buildingactive(1).Recordset(0).Value 'µÚ1ÁĞ´æÈëÎÂ¶ÈYÖáÊı¾İ
+  TEMPData(i, 0) = TimeValue(buildingactive(1).Recordset(2).Value) 'ç¬¬3åˆ—æ—¶é—´å€¼å­˜æ”¾å»ºç­‘ç‰©Xè½´æ•°æ®
+    TEMPData(i, 1) = buildingactive(1).Recordset(0).Value 'ç¬¬1åˆ—å­˜å…¥æ¸©åº¦Yè½´æ•°æ®
 
-    HUMIDITYData(i, 0) = TimeValue(buildingactive(1).Recordset(2).Value) 'µÚ3ÁĞÊ±¼äÖµ´æ·ÅXÖáÊı¾İ
-    HUMIDITYData(i, 1) = buildingactive(1).Recordset(1).Value 'µÚ1ÁĞ´æÈëÊª¶ÈÆ½¾ùÖµYÖáÊı¾İ
+    HUMIDITYData(i, 0) = TimeValue(buildingactive(1).Recordset(2).Value) 'ç¬¬3åˆ—æ—¶é—´å€¼å­˜æ”¾Xè½´æ•°æ®
+    HUMIDITYData(i, 1) = buildingactive(1).Recordset(1).Value 'ç¬¬1åˆ—å­˜å…¥æ¹¿åº¦å¹³å‡å€¼Yè½´æ•°æ®
    
        buildingactive(1).Recordset.MoveNext
      
@@ -892,8 +892,8 @@ ReDim HUMIDITYData(buildingactive(1).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå½¨ÖşÎï
   
     .Plot.Axis(VtChAxisIdY).ValueScale.Minimum = MintempY
  
-           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//µÚÒ»ÌõÎªÀíÏëÇúÏß,ÉèÖÃÎªÀ¶É«
-        .Plot.SeriesCollection(1).Pen.Width = 40 '//ÉèÖÃÎª½ÏÏ¸
+           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//ç¬¬ä¸€æ¡ä¸ºç†æƒ³æ›²çº¿,è®¾ç½®ä¸ºè“è‰²
+        .Plot.SeriesCollection(1).Pen.Width = 40 '//è®¾ç½®ä¸ºè¾ƒç»†
         
           .Plot.Axis(VtChAxisIdX).ValueScale.Maximum = MaxSec * DblSec
            .Plot.Axis(VtChAxisIdX).ValueScale.Minimum = MinSec * DblSec
@@ -906,8 +906,8 @@ End With
   
     .Plot.Axis(VtChAxisIdY).ValueScale.Minimum = MinHUMIDITYY
  
-           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//µÚÒ»ÌõÎªÀíÏëÇúÏß,ÉèÖÃÎªÀ¶É«
-        .Plot.SeriesCollection(1).Pen.Width = 40 '//ÉèÖÃÎª½ÏÏ¸
+           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//ç¬¬ä¸€æ¡ä¸ºç†æƒ³æ›²çº¿,è®¾ç½®ä¸ºè“è‰²
+        .Plot.SeriesCollection(1).Pen.Width = 40 '//è®¾ç½®ä¸ºè¾ƒç»†
         
           .Plot.Axis(VtChAxisIdX).ValueScale.Maximum = MaxSec * DblSec
            .Plot.Axis(VtChAxisIdX).ValueScale.Minimum = MinSec * DblSec
@@ -919,22 +919,22 @@ End With
 
 
 
-     End If '½áÊøÒ»¸öÓĞÊı¾İµÄ½¨ÖşÎïÇúÏßÏÔÊ¾
+     End If 'ç»“æŸä¸€ä¸ªæœ‰æ•°æ®çš„å»ºç­‘ç‰©æ›²çº¿æ˜¾ç¤º
 
-End If  '½áÊøÒ»¸ö½¨ÖşÎïµÄÇúÏßÏÔÊ¾
+End If  'ç»“æŸä¸€ä¸ªå»ºç­‘ç‰©çš„æ›²çº¿æ˜¾ç¤º
 
      buildingR.MoveNext
         Loop
         buildingR.Close
 
-'*************************************************************************************************************************endÏÔÊ¾½¨ÖşÎïµÄ»ã×ÜÊı¾İµÄÏà¹ØÇúÏß
-'*************************************************************************************************************************ÏÔÊ¾ÇøÓòµÄ»ã×ÜÊı¾İµÄÏà¹ØÇúÏß
+'*************************************************************************************************************************endæ˜¾ç¤ºå»ºç­‘ç‰©çš„æ±‡æ€»æ•°æ®çš„ç›¸å…³æ›²çº¿
+'*************************************************************************************************************************æ˜¾ç¤ºåŒºåŸŸçš„æ±‡æ€»æ•°æ®çš„ç›¸å…³æ›²çº¿
 AreaR.Open "select * from areaInformation ", area(0).ConnectionString
 
-        Do Until AreaR.EOF  '±éÀú¶ş¼¶²É¼¯Æ÷Ä¿Â¼½Úµã²¢ÏÔÊ¾
+        Do Until AreaR.EOF  'éå†äºŒçº§é‡‡é›†å™¨ç›®å½•èŠ‚ç‚¹å¹¶æ˜¾ç¤º
         strCodeAreatagName = Trim(AreaR.Fields("tagName"))
           'strCodeCOLLECTIP = AreaR.Fields("macAddress")
-If Node.Text = strCodeAreatagName Then 'Ñ¡ÖĞÇøÓò½Úµã
+If Node.Text = strCodeAreatagName Then 'é€‰ä¸­åŒºåŸŸèŠ‚ç‚¹
 Timerarea.Enabled = True
 Timerbuilding.Enabled = False
 
@@ -943,11 +943,11 @@ Timercollector = False
 
 
 
- VOLTAGEchart.Visible = False '²»ÏÔÊ¾µçÑ¹ÇúÏß±í
- CURRENTChart.Visible = False '²»ÏÔÊ¾µçÁ÷ÇúÏß±í
+ VOLTAGEchart.Visible = False 'ä¸æ˜¾ç¤ºç”µå‹æ›²çº¿è¡¨
+ CURRENTChart.Visible = False 'ä¸æ˜¾ç¤ºç”µæµæ›²çº¿è¡¨
  
  
-  '*+++++++++++++++++++++++++++++++++++++++++++++»ñÈ¡ÇøÓòµçÁ¿µÈ±í×îºóÒ»Ìõ¼ÇÂ¼µÄÊ±¼ä
+  '*+++++++++++++++++++++++++++++++++++++++++++++è·å–åŒºåŸŸç”µé‡ç­‰è¡¨æœ€åä¸€æ¡è®°å½•çš„æ—¶é—´
 
  LastTimeR.Open "Select max(DBTIME) from analyze_electrictable join collectorInformation on COLLECTIP=collectorInformation.macAddress group by DBTIME,collectorInformation.AID ", area(0).ConnectionString
     Do Until LastTimeR.EOF
@@ -956,8 +956,8 @@ Timercollector = False
   Loop
 
  LastTimeR.Close
-  '*+++++++++++++++++++++++++++++++++++++++++++++»ñÈ¡ÇøÓò×îºóÒ»Ìõ¼ÇÂ¼µÄÊ±¼ä
-   '*+++++++++++++++++++++++++++++++++++++++++++++»ñÈ¡ÇøÓòÎÂ¶ÈµÈ±í×îºóÒ»Ìõ¼ÇÂ¼µÄÊ±¼ä
+  '*+++++++++++++++++++++++++++++++++++++++++++++è·å–åŒºåŸŸæœ€åä¸€æ¡è®°å½•çš„æ—¶é—´
+   '*+++++++++++++++++++++++++++++++++++++++++++++è·å–åŒºåŸŸæ¸©åº¦ç­‰è¡¨æœ€åä¸€æ¡è®°å½•çš„æ—¶é—´
  '
  LastTimeR2.Open "select max(DBTIME) from analyze_humituretable join collectorInformation on COLLECTIP=collectorInformation.macAddress  group by DBTIME,collectorInformation.AID ", area(1).ConnectionString
     Do Until LastTimeR2.EOF
@@ -966,20 +966,20 @@ Timercollector = False
   Loop
 
  LastTimeR2.Close
-  '*+++++++++++++++++++++++++++++++++++++++++++++»ñÈ¡ÇøÓòÎÂ¶ÈµÈ±í×îºóÒ»Ìõ¼ÇÂ¼µÄÊ±¼ä
+  '*+++++++++++++++++++++++++++++++++++++++++++++è·å–åŒºåŸŸæ¸©åº¦ç­‰è¡¨æœ€åä¸€æ¡è®°å½•çš„æ—¶é—´
  
        
-        area(0).RecordSource = "Select sum(ACTIVEENERGY) as µçÁ¿»ã×Ü,DBTIME,collectorInformation.AID from analyze_electrictable join collectorInformation on COLLECTIP=collectorInformation.macAddress where DBTIME>dateadd(MINUTE,-10,cast('" & arealastTime & "'as datetime)) group by DBTIME,collectorInformation.AID Order by DBTIME"
-        area(1).RecordSource = "Select avg(cast(TEMP AS int)) as ÎÂ¶ÈÆ½¾ùÖµ,avg(cast(HUMIDITY as int)) as Êª¶ÈÆ½¾ùÖµ,CONVERT(varchar,DBTIME,120),collectorInformation.AID from analyze_humituretable join collectorInformation on COLLECTIP=collectorInformation.macAddress  where  DBTIME>dateadd(MINUTE,-10,cast('" & arealastTime2 & "'as datetime)) group by CONVERT(varchar,DBTIME,120),collectorInformation.AID Order by CONVERT(varchar,DBTIME,120)"
-       '   area(1).RecordSource = "Select avg(cast(TEMP AS int)) as ÎÂ¶ÈÆ½¾ùÖµ,avg(cast(HUMIDITY as int)) as Êª¶ÈÆ½¾ùÖµ,DBTIME,collectorInformation.AID from analyze_humituretable join collectorInformation on COLLECTIP=collectorInformation.macAddress  where  DBTIME>dateadd(MINUTE,-10,cast('" & arealastTime2 & "'as datetime)) group by DBTIME,collectorInformation.AID Order by DBTIME"
+        area(0).RecordSource = "Select sum(ACTIVEENERGY) as ç”µé‡æ±‡æ€»,DBTIME,collectorInformation.AID from analyze_electrictable join collectorInformation on COLLECTIP=collectorInformation.macAddress where DBTIME>dateadd(MINUTE,-10,cast('" & arealastTime & "'as datetime)) group by DBTIME,collectorInformation.AID Order by DBTIME"
+        area(1).RecordSource = "Select avg(cast(TEMP AS int)) as æ¸©åº¦å¹³å‡å€¼,avg(cast(HUMIDITY as int)) as æ¹¿åº¦å¹³å‡å€¼,CONVERT(varchar,DBTIME,120),collectorInformation.AID from analyze_humituretable join collectorInformation on COLLECTIP=collectorInformation.macAddress  where  DBTIME>dateadd(MINUTE,-10,cast('" & arealastTime2 & "'as datetime)) group by CONVERT(varchar,DBTIME,120),collectorInformation.AID Order by CONVERT(varchar,DBTIME,120)"
+       '   area(1).RecordSource = "Select avg(cast(TEMP AS int)) as æ¸©åº¦å¹³å‡å€¼,avg(cast(HUMIDITY as int)) as æ¹¿åº¦å¹³å‡å€¼,DBTIME,collectorInformation.AID from analyze_humituretable join collectorInformation on COLLECTIP=collectorInformation.macAddress  where  DBTIME>dateadd(MINUTE,-10,cast('" & arealastTime2 & "'as datetime)) group by DBTIME,collectorInformation.AID Order by DBTIME"
     
           area(1).Refresh
 
           area(0).Refresh
 '
 
-If area(0).Recordset.RecordCount > 0 Then  'Èç¹û¼ÇÂ¼¼¯ÓĞÊı¾İ²ÅÏÔÊ¾ÇúÏß
-ReDim Mydata(area(0).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå²É¼¯Æ÷µçÁ¿»ã×ÜÖ®ºÍµÄÊı×é
+If area(0).Recordset.RecordCount > 0 Then  'å¦‚æœè®°å½•é›†æœ‰æ•°æ®æ‰æ˜¾ç¤ºæ›²çº¿
+ReDim Mydata(area(0).Recordset.RecordCount - 1, 1) 'é‡å®šä¹‰é‡‡é›†å™¨ç”µé‡æ±‡æ€»ä¹‹å’Œçš„æ•°ç»„
        
   For i = 0 To area(0).Recordset.RecordCount - 1
  TempSec = DateDiff("s", "0:0:0", TimeValue(area(0).Recordset(1).Value))
@@ -987,22 +987,22 @@ ReDim Mydata(area(0).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå²É¼¯Æ÷µçÁ¿»ã×ÜÖ®ºÍµÄÊı
     If i = 0 Then
        MaxSec = TempSec: MinSec = TempSec
     End If
-    If TempSec > MaxSec Then MaxSec = TempSec 'ÇóxÖá×î´óÖµ
-    If TempSec < MinSec Then MinSec = TempSec 'ÇóxÖá×îĞ¡Öµ
+    If TempSec > MaxSec Then MaxSec = TempSec 'æ±‚xè½´æœ€å¤§å€¼
+    If TempSec < MinSec Then MinSec = TempSec 'æ±‚xè½´æœ€å°å€¼
 
-    TempACTIVEENERGYY = area(0).Recordset(0).Value '½«µçÁ¿µÚÒ»¸öÊıÉèÎªyÖá×îĞ¡Öµ
+    TempACTIVEENERGYY = area(0).Recordset(0).Value 'å°†ç”µé‡ç¬¬ä¸€ä¸ªæ•°è®¾ä¸ºyè½´æœ€å°å€¼
 
     If i = 0 Then
 
        MaxACTIVEENERGYY = TempACTIVEENERGYY: MinACTIVEENERGYY = TempACTIVEENERGYY
     End If
 
-    If TempACTIVEENERGYY > MaxACTIVEENERGYY Then MaxACTIVEENERGYY = TempACTIVEENERGYY 'Çó²É¼¯Æ÷µçÁ¿Ö®ºÍYÖá×î´óÖµ
-    If TempACTIVEENERGYY < MinACTIVEENERGYY Then MinACTIVEENERGYY = TempACTIVEENERGYY 'Çó²É¼¯Æ÷µçÁ¿Ö®ºÍYÖá×îĞ¡Öµ
+    If TempACTIVEENERGYY > MaxACTIVEENERGYY Then MaxACTIVEENERGYY = TempACTIVEENERGYY 'æ±‚é‡‡é›†å™¨ç”µé‡ä¹‹å’ŒYè½´æœ€å¤§å€¼
+    If TempACTIVEENERGYY < MinACTIVEENERGYY Then MinACTIVEENERGYY = TempACTIVEENERGYY 'æ±‚é‡‡é›†å™¨ç”µé‡ä¹‹å’ŒYè½´æœ€å°å€¼
 
-  Mydata(i, 0) = TimeValue(area(0).Recordset(1).Value) 'µÚ2ÁĞÊ±¼äÖµ´æ·ÅµçÁ¿XÖáÊı¾İ
+  Mydata(i, 0) = TimeValue(area(0).Recordset(1).Value) 'ç¬¬2åˆ—æ—¶é—´å€¼å­˜æ”¾ç”µé‡Xè½´æ•°æ®
  
-    Mydata(i, 1) = area(0).Recordset(0).Value 'µÚ4ÁĞ´æÈëµçÁ¿Ö®ºÍYÖáÊı¾İ
+    Mydata(i, 1) = area(0).Recordset(0).Value 'ç¬¬4åˆ—å­˜å…¥ç”µé‡ä¹‹å’ŒYè½´æ•°æ®
 
        area(0).Recordset.MoveNext
 
@@ -1013,8 +1013,8 @@ ReDim Mydata(area(0).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå²É¼¯Æ÷µçÁ¿»ã×ÜÖ®ºÍµÄÊı
 
     .Plot.Axis(VtChAxisIdY).ValueScale.Minimum = MinACTIVEENERGYY
 
-           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//µÚÒ»ÌõÎªÀíÏëÇúÏß,ÉèÖÃÎªÀ¶É«
-        .Plot.SeriesCollection(1).Pen.Width = 20 '//ÉèÖÃÎª½ÏÏ¸
+           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//ç¬¬ä¸€æ¡ä¸ºç†æƒ³æ›²çº¿,è®¾ç½®ä¸ºè“è‰²
+        .Plot.SeriesCollection(1).Pen.Width = 20 '//è®¾ç½®ä¸ºè¾ƒç»†
 
           .Plot.Axis(VtChAxisIdX).ValueScale.Maximum = MaxSec * DblSec
            .Plot.Axis(VtChAxisIdX).ValueScale.Minimum = MinSec * DblSec
@@ -1023,8 +1023,8 @@ ReDim Mydata(area(0).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå²É¼¯Æ÷µçÁ¿»ã×ÜÖ®ºÍµÄÊı
 End With
 
 
-ReDim TEMPData(area(1).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå½¨ÖşÎïµÄÎÂ¶ÈÊı×é
-ReDim HUMIDITYData(area(1).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå½¨ÖşÎïµÄÎÂ¶ÈÊı×é
+ReDim TEMPData(area(1).Recordset.RecordCount - 1, 1) 'é‡å®šä¹‰å»ºç­‘ç‰©çš„æ¸©åº¦æ•°ç»„
+ReDim HUMIDITYData(area(1).Recordset.RecordCount - 1, 1) 'é‡å®šä¹‰å»ºç­‘ç‰©çš„æ¸©åº¦æ•°ç»„
 
 
   For i = 0 To area(1).Recordset.RecordCount - 1
@@ -1033,27 +1033,27 @@ ReDim HUMIDITYData(area(1).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå½¨ÖşÎïµÄÎÂ¶ÈÊı×é
     If i = 0 Then
        MaxSec = TempSec: MinSec = TempSec
     End If
-    If TempSec > MaxSec Then MaxSec = TempSec 'ÇóxÖá×î´óÖµ
-    If TempSec < MinSec Then MinSec = TempSec 'ÇóxÖá×îĞ¡Öµ
+    If TempSec > MaxSec Then MaxSec = TempSec 'æ±‚xè½´æœ€å¤§å€¼
+    If TempSec < MinSec Then MinSec = TempSec 'æ±‚xè½´æœ€å°å€¼
     
-    Temptemp = area(1).Recordset(0).Value '½«ÎÂ¶ÈµÚÒ»¸öÊıÉèÎªyÖá×îĞ¡Öµ
-    TempHUMIDITYY = area(1).Recordset(1).Value '½«Êª¶ÈµÚÒ»¸öÊıÉèÎªyÖá×îĞ¡Öµ
+    Temptemp = area(1).Recordset(0).Value 'å°†æ¸©åº¦ç¬¬ä¸€ä¸ªæ•°è®¾ä¸ºyè½´æœ€å°å€¼
+    TempHUMIDITYY = area(1).Recordset(1).Value 'å°†æ¹¿åº¦ç¬¬ä¸€ä¸ªæ•°è®¾ä¸ºyè½´æœ€å°å€¼
     If i = 0 Then
        MaxtempY = Temptemp: MintempY = Temptemp
       MaxHUMIDITYY = TempHUMIDITYY: MinHUMIDITYYY = TempHUMIDITYY
 
     End If
     
-    If Temptemp > MaxtempY Then MaxtempY = Temptemp 'Çó²É¼¯Æ÷ÎÂ¶ÈYÖá×î´óÖµ
-    If Temptemp < MintempY Then MintempY = Temptemp 'Çó²É¼¯Æ÷ÎÂ¶ÈYÖá×îĞ¡Öµ
-      If TempHUMIDITYY > MaxtempY Then MaxtempY = TempHUMIDITYY 'Çó²É¼¯Æ÷ÎÂ¶ÈYÖá×î´óÖµ
-    If TempHUMIDITYY < MinHUMIDITYYY Then MinHUMIDITYYY = TempHUMIDITYY 'Çó²É¼¯Æ÷Êª¶ÈYÖá×îĞ¡Öµ
+    If Temptemp > MaxtempY Then MaxtempY = Temptemp 'æ±‚é‡‡é›†å™¨æ¸©åº¦Yè½´æœ€å¤§å€¼
+    If Temptemp < MintempY Then MintempY = Temptemp 'æ±‚é‡‡é›†å™¨æ¸©åº¦Yè½´æœ€å°å€¼
+      If TempHUMIDITYY > MaxtempY Then MaxtempY = TempHUMIDITYY 'æ±‚é‡‡é›†å™¨æ¸©åº¦Yè½´æœ€å¤§å€¼
+    If TempHUMIDITYY < MinHUMIDITYYY Then MinHUMIDITYYY = TempHUMIDITYY 'æ±‚é‡‡é›†å™¨æ¹¿åº¦Yè½´æœ€å°å€¼
     
-  TEMPData(i, 0) = TimeValue(area(1).Recordset(2).Value) 'µÚ3ÁĞÊ±¼äÖµ´æ·Å²É¼¯Æ÷XÖáÊı¾İ
-    TEMPData(i, 1) = area(1).Recordset(0).Value 'µÚ1ÁĞ´æÈëÎÂ¶ÈYÖáÊı¾İ
+  TEMPData(i, 0) = TimeValue(area(1).Recordset(2).Value) 'ç¬¬3åˆ—æ—¶é—´å€¼å­˜æ”¾é‡‡é›†å™¨Xè½´æ•°æ®
+    TEMPData(i, 1) = area(1).Recordset(0).Value 'ç¬¬1åˆ—å­˜å…¥æ¸©åº¦Yè½´æ•°æ®
 
-    HUMIDITYData(i, 0) = TimeValue(area(1).Recordset(2).Value) 'µÚ3ÁĞÊ±¼äÖµ´æ·ÅXÖáÊı¾İ
-    HUMIDITYData(i, 1) = area(1).Recordset(1).Value 'µÚ1ÁĞ´æÈëÊª¶ÈÆ½¾ùÖµYÖáÊı¾İ
+    HUMIDITYData(i, 0) = TimeValue(area(1).Recordset(2).Value) 'ç¬¬3åˆ—æ—¶é—´å€¼å­˜æ”¾Xè½´æ•°æ®
+    HUMIDITYData(i, 1) = area(1).Recordset(1).Value 'ç¬¬1åˆ—å­˜å…¥æ¹¿åº¦å¹³å‡å€¼Yè½´æ•°æ®
    
        area(1).Recordset.MoveNext
      
@@ -1064,8 +1064,8 @@ ReDim HUMIDITYData(area(1).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå½¨ÖşÎïµÄÎÂ¶ÈÊı×é
   
     .Plot.Axis(VtChAxisIdY).ValueScale.Minimum = MintempY
  
-           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//µÚÒ»ÌõÎªÀíÏëÇúÏß,ÉèÖÃÎªÀ¶É«
-        .Plot.SeriesCollection(1).Pen.Width = 40 '//ÉèÖÃÎª½ÏÏ¸
+           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//ç¬¬ä¸€æ¡ä¸ºç†æƒ³æ›²çº¿,è®¾ç½®ä¸ºè“è‰²
+        .Plot.SeriesCollection(1).Pen.Width = 40 '//è®¾ç½®ä¸ºè¾ƒç»†
         
           .Plot.Axis(VtChAxisIdX).ValueScale.Maximum = MaxSec * DblSec
            .Plot.Axis(VtChAxisIdX).ValueScale.Minimum = MinSec * DblSec
@@ -1078,8 +1078,8 @@ End With
   
     .Plot.Axis(VtChAxisIdY).ValueScale.Minimum = MinHUMIDITYY
  
-           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//µÚÒ»ÌõÎªÀíÏëÇúÏß,ÉèÖÃÎªÀ¶É«
-        .Plot.SeriesCollection(1).Pen.Width = 40 '//ÉèÖÃÎª½ÏÏ¸
+           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//ç¬¬ä¸€æ¡ä¸ºç†æƒ³æ›²çº¿,è®¾ç½®ä¸ºè“è‰²
+        .Plot.SeriesCollection(1).Pen.Width = 40 '//è®¾ç½®ä¸ºè¾ƒç»†
         
           .Plot.Axis(VtChAxisIdX).ValueScale.Maximum = MaxSec * DblSec
            .Plot.Axis(VtChAxisIdX).ValueScale.Minimum = MinSec * DblSec
@@ -1093,25 +1093,25 @@ End With
 
 
 
-     End If '½áÊøÒ»¸öÓĞÊı¾İµÄÇøÓòÇúÏßÏÔÊ¾
+     End If 'ç»“æŸä¸€ä¸ªæœ‰æ•°æ®çš„åŒºåŸŸæ›²çº¿æ˜¾ç¤º
 
-End If  '½áÊøÒ»¸öÇøÓòµÄÇúÏßÏÔÊ¾
+End If  'ç»“æŸä¸€ä¸ªåŒºåŸŸçš„æ›²çº¿æ˜¾ç¤º
 
      AreaR.MoveNext
         Loop
         AreaR.Close
 
-'*************************************************************************************************************************endÏÔÊ¾ÇøÓòµÄ»ã×ÜÊı¾İµÄÏà¹ØÇúÏß
+'*************************************************************************************************************************endæ˜¾ç¤ºåŒºåŸŸçš„æ±‡æ€»æ•°æ®çš„ç›¸å…³æ›²çº¿
 
 
-'$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ÏÔÊ¾²É¼¯Æ÷µÄ»ã×ÜÊı¾İµÄÏà¹ØÇúÏß
+'$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$æ˜¾ç¤ºé‡‡é›†å™¨çš„æ±‡æ€»æ•°æ®çš„ç›¸å…³æ›²çº¿
 collectorR.Open "select * from collectorInformation  ", collector(0).ConnectionString
 
-        Do Until collectorR.EOF  '±éÀú¶ş¼¶²É¼¯Æ÷Ä¿Â¼½Úµã²¢ÏÔÊ¾
+        Do Until collectorR.EOF  'éå†äºŒçº§é‡‡é›†å™¨ç›®å½•èŠ‚ç‚¹å¹¶æ˜¾ç¤º
         strCodecollectortagName = Trim(collectorR.Fields("tagName"))
        ' strCodeCOLLECTIP = Trim(collectorR.Fields("macAddress"))
           strCodeCOLLECTIP = collectorR.Fields("macAddress")
-If Node.Text = strCodecollectortagName Then 'Ñ¡ÖĞ²É¼¯Æ÷½Úµã
+If Node.Text = strCodecollectortagName Then 'é€‰ä¸­é‡‡é›†å™¨èŠ‚ç‚¹
 Timercollector.Enabled = True
 Timerbuilding.Enabled = False
 Timerarea.Enabled = False
@@ -1119,11 +1119,11 @@ Timerarea.Enabled = False
 
 Timerplug.Enabled = False
 
- VOLTAGEchart.Visible = False '²»ÏÔÊ¾µçÑ¹ÇúÏß±í
- CURRENTChart.Visible = False '²»ÏÔÊ¾µçÁ÷ÇúÏß±í
+ VOLTAGEchart.Visible = False 'ä¸æ˜¾ç¤ºç”µå‹æ›²çº¿è¡¨
+ CURRENTChart.Visible = False 'ä¸æ˜¾ç¤ºç”µæµæ›²çº¿è¡¨
  
   
- '*+++++++++++++++++++++++++++++++++++++++++++++»ñÈ¡²É¼¯Æ÷µçÁ¿µÈ±í×îºóÒ»Ìõ¼ÇÂ¼µÄÊ±¼ä
+ '*+++++++++++++++++++++++++++++++++++++++++++++è·å–é‡‡é›†å™¨ç”µé‡ç­‰è¡¨æœ€åä¸€æ¡è®°å½•çš„æ—¶é—´
 
  LastTimeR.Open "Select max(DBTIME) from analyze_electrictable where  COLLECTIP='" & strCodeCOLLECTIP & "' group by COLLECTIP ", collector(0).ConnectionString
     Do Until LastTimeR.EOF
@@ -1132,8 +1132,8 @@ Timerplug.Enabled = False
   Loop
  Print collectorlastTime
  LastTimeR.Close
-  '*+++++++++++++++++++++++++++++++++++++++++++++»ñÈ¡²É¼¯Æ÷×îºóÒ»Ìõ¼ÇÂ¼µÄÊ±¼ä
-   '*+++++++++++++++++++++++++++++++++++++++++++++»ñÈ¡²É¼¯Æ÷ÎÂ¶ÈµÈ±í×îºóÒ»Ìõ¼ÇÂ¼µÄÊ±¼ä
+  '*+++++++++++++++++++++++++++++++++++++++++++++è·å–é‡‡é›†å™¨æœ€åä¸€æ¡è®°å½•çš„æ—¶é—´
+   '*+++++++++++++++++++++++++++++++++++++++++++++è·å–é‡‡é›†å™¨æ¸©åº¦ç­‰è¡¨æœ€åä¸€æ¡è®°å½•çš„æ—¶é—´
  '
  LastTimeR2.Open "select max(DBTIME) from analyze_humituretable  where COLLECTIP='" & strCodeCOLLECTIP & "'group by COLLECTIP", collector(1).ConnectionString
     Do Until LastTimeR2.EOF
@@ -1142,11 +1142,11 @@ Timerplug.Enabled = False
   Loop
  Print collectorlastTime2
  LastTimeR2.Close
-  '*+++++++++++++++++++++++++++++++++++++++++++++»ñÈ¡²É¼¯Æ÷×îºóÒ»Ìõ¼ÇÂ¼µÄÊ±¼ä
- collector(0).RecordSource = "Select sum([CURRENT]) as µçÁ÷»ã×Ü,DBTIME,COLLECTIP,sum(VOLTAGE) as µçÑ¹»ã×Ü,sum(ACTIVEENERGY) as µçÁ¿»ã×Ü from analyze_electrictable where COLLECTIP='" & strCodeCOLLECTIP & "' and DBTIME>dateadd(MINUTE,-30,cast('" & collectorlastTime & "'as datetime)) group by DBTIME,COLLECTIP Order by DBTIME"
+  '*+++++++++++++++++++++++++++++++++++++++++++++è·å–é‡‡é›†å™¨æœ€åä¸€æ¡è®°å½•çš„æ—¶é—´
+ collector(0).RecordSource = "Select sum([CURRENT]) as ç”µæµæ±‡æ€»,DBTIME,COLLECTIP,sum(VOLTAGE) as ç”µå‹æ±‡æ€»,sum(ACTIVEENERGY) as ç”µé‡æ±‡æ€» from analyze_electrictable where COLLECTIP='" & strCodeCOLLECTIP & "' and DBTIME>dateadd(MINUTE,-30,cast('" & collectorlastTime & "'as datetime)) group by DBTIME,COLLECTIP Order by DBTIME"
 
        
-collector(1).RecordSource = "Select avg(cast(TEMP AS int)) as ÎÂ¶ÈÆ½¾ùÖµ,avg(cast(HUMIDITY as int)) as Êª¶ÈÆ½¾ùÖµ,CONVERT(varchar,DBTIME,120),COLLECTIP from analyze_humituretable where COLLECTIP='" & strCodeCOLLECTIP & "' and DBTIME>dateadd(MINUTE,-10,cast('" & collectorlastTime2 & "'as datetime))group by CONVERT(varchar,DBTIME,120),COLLECTIP"
+collector(1).RecordSource = "Select avg(cast(TEMP AS int)) as æ¸©åº¦å¹³å‡å€¼,avg(cast(HUMIDITY as int)) as æ¹¿åº¦å¹³å‡å€¼,CONVERT(varchar,DBTIME,120),COLLECTIP from analyze_humituretable where COLLECTIP='" & strCodeCOLLECTIP & "' and DBTIME>dateadd(MINUTE,-10,cast('" & collectorlastTime2 & "'as datetime))group by CONVERT(varchar,DBTIME,120),COLLECTIP"
 
           collector(0).Refresh
           collector(1).Refresh
@@ -1154,46 +1154,46 @@ collector(1).RecordSource = "Select avg(cast(TEMP AS int)) as ÎÂ¶ÈÆ½¾ùÖµ,avg(cas
         
            
         
-If collector(0).Recordset.RecordCount > 0 Then  'Èç¹û¼ÇÂ¼¼¯ÓĞÊı¾İ²ÅÏÔÊ¾ÇúÏß
-ReDim Mydata(collector(0).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå²É¼¯Æ÷µçÁ¿»ã×ÜÖ®ºÍµÄÊı×é
-         ReDim CURRENTData(collector(0).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå²É¼¯Æ÷µçÁ÷»ã×ÜÖ®ºÍµÄÊı×é
- ReDim VOLTAGEData(collector(0).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå²É¼¯Æ÷µçÑ¹Ö®ºÍÊı×é
+If collector(0).Recordset.RecordCount > 0 Then  'å¦‚æœè®°å½•é›†æœ‰æ•°æ®æ‰æ˜¾ç¤ºæ›²çº¿
+ReDim Mydata(collector(0).Recordset.RecordCount - 1, 1) 'é‡å®šä¹‰é‡‡é›†å™¨ç”µé‡æ±‡æ€»ä¹‹å’Œçš„æ•°ç»„
+         ReDim CURRENTData(collector(0).Recordset.RecordCount - 1, 1) 'é‡å®šä¹‰é‡‡é›†å™¨ç”µæµæ±‡æ€»ä¹‹å’Œçš„æ•°ç»„
+ ReDim VOLTAGEData(collector(0).Recordset.RecordCount - 1, 1) 'é‡å®šä¹‰é‡‡é›†å™¨ç”µå‹ä¹‹å’Œæ•°ç»„
   For i = 0 To collector(0).Recordset.RecordCount - 1
  TempSec = DateDiff("s", "0:0:0", TimeValue(collector(0).Recordset(1).Value))
  
     If i = 0 Then
        MaxSec = TempSec: MinSec = TempSec
     End If
-    If TempSec > MaxSec Then MaxSec = TempSec 'ÇóxÖá×î´óÖµ
-    If TempSec < MinSec Then MinSec = TempSec 'ÇóxÖá×îĞ¡Öµ
+    If TempSec > MaxSec Then MaxSec = TempSec 'æ±‚xè½´æœ€å¤§å€¼
+    If TempSec < MinSec Then MinSec = TempSec 'æ±‚xè½´æœ€å°å€¼
     
-    TempACTIVEENERGYY = collector(0).Recordset(4).Value '½«µçÁ¿µÚÒ»¸öÊıÉèÎªyÖá×îĞ¡Öµ
-     TempCurrentY = collector(0).Recordset(0).Value '½«µçÁ÷µÚÒ»¸öÊıÉèÎªyÖá×îĞ¡Öµ
-    TempVoltageY = collector(0).Recordset(3).Value '½«µçÑ¹µÚÒ»¸öÊıÉèÎªyÖá×îĞ¡Öµ
+    TempACTIVEENERGYY = collector(0).Recordset(4).Value 'å°†ç”µé‡ç¬¬ä¸€ä¸ªæ•°è®¾ä¸ºyè½´æœ€å°å€¼
+     TempCurrentY = collector(0).Recordset(0).Value 'å°†ç”µæµç¬¬ä¸€ä¸ªæ•°è®¾ä¸ºyè½´æœ€å°å€¼
+    TempVoltageY = collector(0).Recordset(3).Value 'å°†ç”µå‹ç¬¬ä¸€ä¸ªæ•°è®¾ä¸ºyè½´æœ€å°å€¼
     If i = 0 Then
        MaxY = TempCurrentY: MinY = TempCurrentY
        MaxVoltageY = TempVoltageY: MinVoltageY = TempVoltageY
        MaxACTIVEENERGYY = TempACTIVEENERGYY: MinACTIVEENERGYY = TempACTIVEENERGYY
     End If
     
-    If TempACTIVEENERGYY > MaxACTIVEENERGYY Then MaxACTIVEENERGYY = TempACTIVEENERGYY 'Çó²É¼¯Æ÷µçÁ¿Ö®ºÍYÖá×î´óÖµ
-    If TempACTIVEENERGYY < MinACTIVEENERGYY Then MinACTIVEENERGYY = TempACTIVEENERGYY 'Çó²É¼¯Æ÷µçÁ¿Ö®ºÍYÖá×îĞ¡Öµ
-    If TempCurrentY > MaxY Then MaxY = TempCurrentY 'Çó²É¼¯Æ÷µçÁ÷Ö®ºÍYÖá×î´óÖµ
-    If TempCurrentY < MinY Then MinY = TempCurrentY 'Çó²É¼¯Æ÷µçÁ÷Ö®ºÍYÖá×îĞ¡Öµ
+    If TempACTIVEENERGYY > MaxACTIVEENERGYY Then MaxACTIVEENERGYY = TempACTIVEENERGYY 'æ±‚é‡‡é›†å™¨ç”µé‡ä¹‹å’ŒYè½´æœ€å¤§å€¼
+    If TempACTIVEENERGYY < MinACTIVEENERGYY Then MinACTIVEENERGYY = TempACTIVEENERGYY 'æ±‚é‡‡é›†å™¨ç”µé‡ä¹‹å’ŒYè½´æœ€å°å€¼
+    If TempCurrentY > MaxY Then MaxY = TempCurrentY 'æ±‚é‡‡é›†å™¨ç”µæµä¹‹å’ŒYè½´æœ€å¤§å€¼
+    If TempCurrentY < MinY Then MinY = TempCurrentY 'æ±‚é‡‡é›†å™¨ç”µæµä¹‹å’ŒYè½´æœ€å°å€¼
     
-    If TempVoltageY > MaxVoltageY Then MaxVoltageY = TempVoltageY 'Çó²É¼¯Æ÷µçÑ¹Ö®ºÍYÖá×î´óÖµ
-    If TempVoltageY < MinVoltageY Then MinVoltageY = TempVoltageY 'Çó²É¼¯Æ÷µçÑ¹Ö®ºÍYÖá×îĞ¡Öµ
+    If TempVoltageY > MaxVoltageY Then MaxVoltageY = TempVoltageY 'æ±‚é‡‡é›†å™¨ç”µå‹ä¹‹å’ŒYè½´æœ€å¤§å€¼
+    If TempVoltageY < MinVoltageY Then MinVoltageY = TempVoltageY 'æ±‚é‡‡é›†å™¨ç”µå‹ä¹‹å’ŒYè½´æœ€å°å€¼
     
     
- Mydata(i, 0) = TimeValue(collector(0).Recordset(1).Value) 'µÚ2ÁĞÊ±¼äÖµ´æ·ÅµçÁ¿XÖáÊı¾İ
- 'Mydata(i, 0) = collector(0).Recordset(1).Value 'µÚ2ÁĞÊ±¼äÖµ´æ·ÅµçÁ¿XÖáÊı¾İ
+ Mydata(i, 0) = TimeValue(collector(0).Recordset(1).Value) 'ç¬¬2åˆ—æ—¶é—´å€¼å­˜æ”¾ç”µé‡Xè½´æ•°æ®
+ 'Mydata(i, 0) = collector(0).Recordset(1).Value 'ç¬¬2åˆ—æ—¶é—´å€¼å­˜æ”¾ç”µé‡Xè½´æ•°æ®
 
 
-    Mydata(i, 1) = collector(0).Recordset(4).Value 'µÚ4ÁĞ´æÈëµçÁ¿Ö®ºÍYÖáÊı¾İ
- CURRENTData(i, 0) = TimeValue(collector(0).Recordset(1).Value) 'µÚ2ÁĞÊ±¼äÖµ´æ·ÅµçÁ÷XÖáÊı¾İ
-    CURRENTData(i, 1) = collector(0).Recordset(0).Value 'µÚ1ÁĞ´æÈëµçÁ÷Ö®ºÍYÖáÊı¾İ
-      VOLTAGEData(i, 0) = TimeValue(collector(0).Recordset(1).Value) 'µÚ2ÁĞÊ±¼äÖµ´æ·ÅµçÑ¹XÖáÊı¾İ
-    VOLTAGEData(i, 1) = collector(0).Recordset(3).Value 'µÚ4ÁĞ´æÈëµçÑ¹Ö®ºÍYÖáÊı¾İ
+    Mydata(i, 1) = collector(0).Recordset(4).Value 'ç¬¬4åˆ—å­˜å…¥ç”µé‡ä¹‹å’ŒYè½´æ•°æ®
+ CURRENTData(i, 0) = TimeValue(collector(0).Recordset(1).Value) 'ç¬¬2åˆ—æ—¶é—´å€¼å­˜æ”¾ç”µæµXè½´æ•°æ®
+    CURRENTData(i, 1) = collector(0).Recordset(0).Value 'ç¬¬1åˆ—å­˜å…¥ç”µæµä¹‹å’ŒYè½´æ•°æ®
+      VOLTAGEData(i, 0) = TimeValue(collector(0).Recordset(1).Value) 'ç¬¬2åˆ—æ—¶é—´å€¼å­˜æ”¾ç”µå‹Xè½´æ•°æ®
+    VOLTAGEData(i, 1) = collector(0).Recordset(3).Value 'ç¬¬4åˆ—å­˜å…¥ç”µå‹ä¹‹å’ŒYè½´æ•°æ®
        
        collector(0).Recordset.MoveNext
      
@@ -1205,8 +1205,8 @@ ReDim Mydata(collector(0).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå²É¼¯Æ÷µçÁ¿»ã×ÜÖ®º
   
     .Plot.Axis(VtChAxisIdY).ValueScale.Minimum = MinACTIVEENERGYY
  
-           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//µÚÒ»ÌõÎªÀíÏëÇúÏß,ÉèÖÃÎªÀ¶É«
-        .Plot.SeriesCollection(1).Pen.Width = 10 '//ÉèÖÃÎª½ÏÏ¸
+           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//ç¬¬ä¸€æ¡ä¸ºç†æƒ³æ›²çº¿,è®¾ç½®ä¸ºè“è‰²
+        .Plot.SeriesCollection(1).Pen.Width = 10 '//è®¾ç½®ä¸ºè¾ƒç»†
         
           .Plot.Axis(VtChAxisIdX).ValueScale.Maximum = MaxSec * DblSec
            .Plot.Axis(VtChAxisIdX).ValueScale.Minimum = MinSec * DblSec
@@ -1223,8 +1223,8 @@ With CURRENTChart
     .Plot.Axis(VtChAxisIdY).ValueScale.Minimum = MinY
  ' .Plot.Axis(VtChAxisIdX).ValueScale.Minimum = 0
  
-           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//µÚÒ»ÌõÎªÀíÏëÇúÏß,ÉèÖÃÎªÀ¶É«
-        .Plot.SeriesCollection(1).Pen.Width = 10 '//ÉèÖÃÎª½ÏÏ¸
+           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//ç¬¬ä¸€æ¡ä¸ºç†æƒ³æ›²çº¿,è®¾ç½®ä¸ºè“è‰²
+        .Plot.SeriesCollection(1).Pen.Width = 10 '//è®¾ç½®ä¸ºè¾ƒç»†
         
           .Plot.Axis(VtChAxisIdX).ValueScale.Maximum = MaxSec * DblSec
            .Plot.Axis(VtChAxisIdY).ValueScale.Maximum = MaxY + 5
@@ -1239,8 +1239,8 @@ With VOLTAGEchart
     .Plot.Axis(VtChAxisIdY).ValueScale.Minimum = MinVoltageY
   '.Plot.Axis(VtChAxisIdX).ValueScale.Minimum = 0
  
-           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//µÚÒ»ÌõÎªÀíÏëÇúÏß,ÉèÖÃÎªÀ¶É«
-        .Plot.SeriesCollection(1).Pen.Width = 10 '//ÉèÖÃÎª½ÏÏ¸
+           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//ç¬¬ä¸€æ¡ä¸ºç†æƒ³æ›²çº¿,è®¾ç½®ä¸ºè“è‰²
+        .Plot.SeriesCollection(1).Pen.Width = 10 '//è®¾ç½®ä¸ºè¾ƒç»†
         
           .Plot.Axis(VtChAxisIdX).ValueScale.Maximum = MaxSec * DblSec
            .Plot.Axis(VtChAxisIdX).ValueScale.Minimum = MinSec * DblSec
@@ -1250,8 +1250,8 @@ End With
 
 '||||||||||||||||||||||||||||||||
 
-ReDim TEMPData(collector(1).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå²É¼¯Æ÷µÄÎÂ¶ÈÊı×é
-ReDim HUMIDITYData(collector(1).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå²É¼¯Æ÷ÎÂ¶ÈÊı×é
+ReDim TEMPData(collector(1).Recordset.RecordCount - 1, 1) 'é‡å®šä¹‰é‡‡é›†å™¨çš„æ¸©åº¦æ•°ç»„
+ReDim HUMIDITYData(collector(1).Recordset.RecordCount - 1, 1) 'é‡å®šä¹‰é‡‡é›†å™¨æ¸©åº¦æ•°ç»„
 
 
   For i = 0 To collector(1).Recordset.RecordCount - 1
@@ -1260,27 +1260,27 @@ ReDim HUMIDITYData(collector(1).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå²É¼¯Æ÷ÎÂ¶ÈÊ
     If i = 0 Then
        MaxSec = TempSec: MinSec = TempSec
     End If
-    If TempSec > MaxSec Then MaxSec = TempSec 'ÇóxÖá×î´óÖµ
-    If TempSec < MinSec Then MinSec = TempSec 'ÇóxÖá×îĞ¡Öµ
+    If TempSec > MaxSec Then MaxSec = TempSec 'æ±‚xè½´æœ€å¤§å€¼
+    If TempSec < MinSec Then MinSec = TempSec 'æ±‚xè½´æœ€å°å€¼
     
-    Temptemp = collector(1).Recordset(0).Value '½«ÎÂ¶ÈµÚÒ»¸öÊıÉèÎªyÖá×îĞ¡Öµ
-    TempHUMIDITYY = collector(1).Recordset(1).Value '½«Êª¶ÈµÚÒ»¸öÊıÉèÎªyÖá×îĞ¡Öµ
+    Temptemp = collector(1).Recordset(0).Value 'å°†æ¸©åº¦ç¬¬ä¸€ä¸ªæ•°è®¾ä¸ºyè½´æœ€å°å€¼
+    TempHUMIDITYY = collector(1).Recordset(1).Value 'å°†æ¹¿åº¦ç¬¬ä¸€ä¸ªæ•°è®¾ä¸ºyè½´æœ€å°å€¼
     If i = 0 Then
        MaxtempY = Temptemp: MintempY = Temptemp
       MaxHUMIDITYY = TempHUMIDITYY: MinHUMIDITYYY = TempHUMIDITYY
 
     End If
     
-    If Temptemp > MaxtempY Then MaxtempY = Temptemp 'ÇóÇøÓòÎÂ¶ÈYÖá×î´óÖµ
-    If Temptemp < MintempY Then MintempY = Temptemp 'ÇóÇøÓòÎÂ¶ÈYÖá×îĞ¡Öµ
-      If TempHUMIDITYY > MaxtempY Then MaxtempY = TempHUMIDITYY 'ÇóÇøÓòÎÂ¶ÈYÖá×î´óÖµ
-    If TempHUMIDITYY < MinHUMIDITYYY Then MinHUMIDITYYY = TempHUMIDITYY 'ÇóÇøÓòÊª¶ÈYÖá×îĞ¡Öµ
+    If Temptemp > MaxtempY Then MaxtempY = Temptemp 'æ±‚åŒºåŸŸæ¸©åº¦Yè½´æœ€å¤§å€¼
+    If Temptemp < MintempY Then MintempY = Temptemp 'æ±‚åŒºåŸŸæ¸©åº¦Yè½´æœ€å°å€¼
+      If TempHUMIDITYY > MaxtempY Then MaxtempY = TempHUMIDITYY 'æ±‚åŒºåŸŸæ¸©åº¦Yè½´æœ€å¤§å€¼
+    If TempHUMIDITYY < MinHUMIDITYYY Then MinHUMIDITYYY = TempHUMIDITYY 'æ±‚åŒºåŸŸæ¹¿åº¦Yè½´æœ€å°å€¼
     
-  TEMPData(i, 0) = TimeValue(collector(1).Recordset(2).Value) 'µÚ3ÁĞÊ±¼äÖµ´æ·ÅÇøÓòXÖáÊı¾İ
-    TEMPData(i, 1) = collector(1).Recordset(0).Value 'µÚ1ÁĞ´æÈëÎÂ¶ÈYÖáÊı¾İ
+  TEMPData(i, 0) = TimeValue(collector(1).Recordset(2).Value) 'ç¬¬3åˆ—æ—¶é—´å€¼å­˜æ”¾åŒºåŸŸXè½´æ•°æ®
+    TEMPData(i, 1) = collector(1).Recordset(0).Value 'ç¬¬1åˆ—å­˜å…¥æ¸©åº¦Yè½´æ•°æ®
 
-    HUMIDITYData(i, 0) = TimeValue(collector(1).Recordset(2).Value) 'µÚ3ÁĞÊ±¼äÖµ´æ·ÅXÖáÊı¾İ
-    HUMIDITYData(i, 1) = collector(1).Recordset(1).Value   'µÚ1ÁĞ´æÈëÊª¶ÈÆ½¾ùÖµYÖáÊı¾İ
+    HUMIDITYData(i, 0) = TimeValue(collector(1).Recordset(2).Value) 'ç¬¬3åˆ—æ—¶é—´å€¼å­˜æ”¾Xè½´æ•°æ®
+    HUMIDITYData(i, 1) = collector(1).Recordset(1).Value   'ç¬¬1åˆ—å­˜å…¥æ¹¿åº¦å¹³å‡å€¼Yè½´æ•°æ®
    
        collector(1).Recordset.MoveNext
      
@@ -1291,8 +1291,8 @@ ReDim HUMIDITYData(collector(1).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå²É¼¯Æ÷ÎÂ¶ÈÊ
   
     .Plot.Axis(VtChAxisIdY).ValueScale.Minimum = MintempY
  
-           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//µÚÒ»ÌõÎªÀíÏëÇúÏß,ÉèÖÃÎªÀ¶É«
-        .Plot.SeriesCollection(1).Pen.Width = 40 '//ÉèÖÃÎª½ÏÏ¸
+           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//ç¬¬ä¸€æ¡ä¸ºç†æƒ³æ›²çº¿,è®¾ç½®ä¸ºè“è‰²
+        .Plot.SeriesCollection(1).Pen.Width = 40 '//è®¾ç½®ä¸ºè¾ƒç»†
         
           .Plot.Axis(VtChAxisIdX).ValueScale.Maximum = MaxSec * DblSec
            .Plot.Axis(VtChAxisIdX).ValueScale.Minimum = MinSec * DblSec
@@ -1305,8 +1305,8 @@ End With
   
     .Plot.Axis(VtChAxisIdY).ValueScale.Minimum = MinHUMIDITYY
  
-           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//µÚÒ»ÌõÎªÀíÏëÇúÏß,ÉèÖÃÎªÀ¶É«
-        .Plot.SeriesCollection(1).Pen.Width = 40 '//ÉèÖÃÎª½ÏÏ¸
+           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//ç¬¬ä¸€æ¡ä¸ºç†æƒ³æ›²çº¿,è®¾ç½®ä¸ºè“è‰²
+        .Plot.SeriesCollection(1).Pen.Width = 40 '//è®¾ç½®ä¸ºè¾ƒç»†
         
           .Plot.Axis(VtChAxisIdX).ValueScale.Maximum = MaxSec * DblSec
            .Plot.Axis(VtChAxisIdX).ValueScale.Minimum = MinSec * DblSec
@@ -1350,25 +1350,25 @@ End With
 
 
 '|||||||||||||||||||||||||||||||||||||||||||||||
-     End If '½áÊøÒ»¸öÓĞÊı¾İµÄ²É¼¯Æ÷ÇúÏßÏÔÊ¾
+     End If 'ç»“æŸä¸€ä¸ªæœ‰æ•°æ®çš„é‡‡é›†å™¨æ›²çº¿æ˜¾ç¤º
            
-End If  '½áÊøÒ»¸ö²É¼¯Æ÷µÄÇúÏßÏÔÊ¾
+End If  'ç»“æŸä¸€ä¸ªé‡‡é›†å™¨çš„æ›²çº¿æ˜¾ç¤º
       
      collectorR.MoveNext
         Loop
         collectorR.Close
         
-'$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$endÏÔÊ¾²É¼¯Æ÷µÄ»ã×ÜÊı¾İµÄÏà¹ØÇúÏß
+'$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$endæ˜¾ç¤ºé‡‡é›†å™¨çš„æ±‡æ€»æ•°æ®çš„ç›¸å…³æ›²çº¿
 
 
-Dim analyze_electrictableR As New ADODB.Recordset '²å×ùµçÁ¿µÈÊı¾İ±íµÄ¼ÇÂ¼¼¯¶ÔÏó
+Dim analyze_electrictableR As New ADODB.Recordset 'æ’åº§ç”µé‡ç­‰æ•°æ®è¡¨çš„è®°å½•é›†å¯¹è±¡
 
 plugR.Open "select * from pluginInformation", plug(0).ConnectionString
-        Do Until plugR.EOF  '±éÀúÈı¼¶²å×ùÄ¿Â¼½Úµã²¢ÏÔÊ¾
+        Do Until plugR.EOF  'éå†ä¸‰çº§æ’åº§ç›®å½•èŠ‚ç‚¹å¹¶æ˜¾ç¤º
          
         strCodeplugtagName = Trim(plugR.Fields("tagName"))
         strCodeplugmacAddress = Trim(plugR.Fields("macAddress"))
-If Node.Text = strCodeplugtagName Then   'Èç¹ûÑ¡ÖĞ²å×ù¼¶µÄ½Úµã
+If Node.Text = strCodeplugtagName Then   'å¦‚æœé€‰ä¸­æ’åº§çº§çš„èŠ‚ç‚¹
 Timerplug.Enabled = True
 Timercollector = False
 Timerbuilding = False
@@ -1386,8 +1386,8 @@ Timerarea = False
   Loop
  Print pluglastTime
  LastTimeR.Close
-  '*+++++++++++++++++++++++++++++++++++++++++++++»ñÈ¡²å×ù×îºóÒ»Ìõ¼ÇÂ¼µÄÊ±¼ä
-   '*+++++++++++++++++++++++++++++++++++++++++++++»ñÈ¡²å×ùµçÁ¿µÈ±í×îºóÒ»Ìõ¼ÇÂ¼µÄÊ±¼ä
+  '*+++++++++++++++++++++++++++++++++++++++++++++è·å–æ’åº§æœ€åä¸€æ¡è®°å½•çš„æ—¶é—´
+   '*+++++++++++++++++++++++++++++++++++++++++++++è·å–æ’åº§ç”µé‡ç­‰è¡¨æœ€åä¸€æ¡è®°å½•çš„æ—¶é—´
  '
  LastTimeR2.Open "select max(DBTIME) from analyze_humituretable  where MAC='" & strCodeplugmacAddress & "'", plug(1).ConnectionString
     Do Until LastTimeR2.EOF
@@ -1396,15 +1396,15 @@ Timerarea = False
   Loop
  Print pluglastTime2
  LastTimeR2.Close
-  '*+++++++++++++++++++++++++++++++++++++++++++++»ñÈ¡²å×ù×îºóÒ»Ìõ¼ÇÂ¼µÄÊ±¼ä
+  '*+++++++++++++++++++++++++++++++++++++++++++++è·å–æ’åº§æœ€åä¸€æ¡è®°å½•çš„æ—¶é—´
   
   
 
 plug(0).RecordSource = "Select ACTIVEPOWER,REACTIVEPOWER,VOLTAGE,[CURRENT],ACTIVEENERGY,DBTIME,MAC from analyze_electrictable where MAC='" & strCodeplugmacAddress & "'and DBTIME>dateadd(MINUTE,-10,cast('" & pluglastTime & "'as datetime)) Order by DBTIME"
 
 
-'Adodc2.RecordSource = "select TEMP,HUMIDITY,MAC,COLLECTIP,DBTIME from analyze_humituretable  where DBTIME>dateadd(MINUTE,-10,GETDATE())"  'ÏÔÊ¾½ü10·ÖÖÓµÄ²å×ùÎÂ¶È£¬ÑİÊ¾ÏµÍ³Ê±Òª°ÑÏµÍ³Ê±¼äÉè¶¨Îª10-21 9£º01£º50£¬ÒòÎªÕâÊÇÊı¾İ¿â¼ÇÂ¼µÄ×îºóÒ»Ìõ¼ÇÂ¼µÄ²åÈëÊ±¼ä
-plug(1).RecordSource = "select TEMP,HUMIDITY,MAC,COLLECTIP,DBTIME from analyze_humituretable  where MAC='" & strCodeplugmacAddress & "' and DBTIME>dateadd(MINUTE,-10,cast('" & pluglastTime2 & "'as datetime)) Order by DBTIME"  'ÏÔÊ¾½ü10·ÖÖÓµÄ²å×ùÎÂ¶È£¬ÑİÊ¾ÏµÍ³Ê±Òª°ÑÏµÍ³Ê±¼äÉè¶¨Îª10-21 9£º01£º50£¬ÒòÎªÕâÊÇÊı¾İ¿â¼ÇÂ¼µÄ×îºóÒ»Ìõ¼ÇÂ¼µÄ²åÈëÊ±¼ä
+'Adodc2.RecordSource = "select TEMP,HUMIDITY,MAC,COLLECTIP,DBTIME from analyze_humituretable  where DBTIME>dateadd(MINUTE,-10,GETDATE())"  'æ˜¾ç¤ºè¿‘10åˆ†é’Ÿçš„æ’åº§æ¸©åº¦ï¼Œæ¼”ç¤ºç³»ç»Ÿæ—¶è¦æŠŠç³»ç»Ÿæ—¶é—´è®¾å®šä¸º10-21 9ï¼š01ï¼š50ï¼Œå› ä¸ºè¿™æ˜¯æ•°æ®åº“è®°å½•çš„æœ€åä¸€æ¡è®°å½•çš„æ’å…¥æ—¶é—´
+plug(1).RecordSource = "select TEMP,HUMIDITY,MAC,COLLECTIP,DBTIME from analyze_humituretable  where MAC='" & strCodeplugmacAddress & "' and DBTIME>dateadd(MINUTE,-10,cast('" & pluglastTime2 & "'as datetime)) Order by DBTIME"  'æ˜¾ç¤ºè¿‘10åˆ†é’Ÿçš„æ’åº§æ¸©åº¦ï¼Œæ¼”ç¤ºç³»ç»Ÿæ—¶è¦æŠŠç³»ç»Ÿæ—¶é—´è®¾å®šä¸º10-21 9ï¼š01ï¼š50ï¼Œå› ä¸ºè¿™æ˜¯æ•°æ®åº“è®°å½•çš„æœ€åä¸€æ¡è®°å½•çš„æ’å…¥æ—¶é—´
 
         plug(0).Refresh
         plug(1).Refresh
@@ -1412,15 +1412,15 @@ plug(1).RecordSource = "select TEMP,HUMIDITY,MAC,COLLECTIP,DBTIME from analyze_h
 
 
 With ACTIVEENERGYChart
-     .chartType = VtChChartType2dXY '¶şÎ¬É¢µãÍ¼£¬Ö»ÄÜÏÔÊ¾Ò»ÌõÇúÏß×¢Òâ±¾Óï¾äµÄÎ»ÖÃ£¬Èç¹û·ÅÔÚ×îºóXÖá×ø±ê½«ÏÔÊ¾³ÉĞ¡Êı¶ø·ÇÊ±¼ä¸ñÊ½
-        'Í¼ÉÏÖ»»­ÌõÇúÏß
+     .chartType = VtChChartType2dXY 'äºŒç»´æ•£ç‚¹å›¾ï¼Œåªèƒ½æ˜¾ç¤ºä¸€æ¡æ›²çº¿æ³¨æ„æœ¬è¯­å¥çš„ä½ç½®ï¼Œå¦‚æœæ”¾åœ¨æœ€åXè½´åæ ‡å°†æ˜¾ç¤ºæˆå°æ•°è€Œéæ—¶é—´æ ¼å¼
+        'å›¾ä¸Šåªç”»æ¡æ›²çº¿
         .ColumnCount = 2
        VOLTAGEchart.ColumnCount = 2
       
-'        'XÖáÏÔÊ¾10¸öµ¥Î»
+'        'Xè½´æ˜¾ç¤º10ä¸ªå•ä½
 '          .RowCount = plug(0).Recordset.RecordCount
         
-          'ÉèÖÃXYÖá?
+          'è®¾ç½®XYè½´?
 .Plot.Axis(VtChAxisIdX).ValueScale.Auto = False
 .Plot.Axis(VtChAxisIdY).ValueScale.Auto = False
 VOLTAGEchart.Plot.Axis(VtChAxisIdX).ValueScale.Auto = False
@@ -1431,49 +1431,49 @@ VOLTAGEchart.Plot.Axis(VtChAxisIdY).ValueScale.Auto = False
    VOLTAGEchart.Plot.Axis(VtChAxisIdY).ValueScale.Minimum = 0
  VOLTAGEchart.Plot.Axis(VtChAxisIdX).ValueScale.Minimum = 0
 
-      '//ÉèÖÃÍ¼±í±êÌâ
-      .Title.Text = "µçÁ¿"
-        VOLTAGEchart.Title.Text = "µçÑ¹"
+      '//è®¾ç½®å›¾è¡¨æ ‡é¢˜
+      .Title.Text = "ç”µé‡"
+        VOLTAGEchart.Title.Text = "ç”µå‹"
 
-ReDim Mydata(plug(0).Recordset.RecordCount - 1, 1) 'ÖØ¶¨ÒåµçÁ¿Êı×é
-ReDim CURRENTData(plug(0).Recordset.RecordCount - 1, 1) 'ÖØ¶¨ÒåµçÁ÷Êı×é
-ReDim VOLTAGEData(plug(0).Recordset.RecordCount - 1, 1) 'µçÑ¹Êı×é
+ReDim Mydata(plug(0).Recordset.RecordCount - 1, 1) 'é‡å®šä¹‰ç”µé‡æ•°ç»„
+ReDim CURRENTData(plug(0).Recordset.RecordCount - 1, 1) 'é‡å®šä¹‰ç”µæµæ•°ç»„
+ReDim VOLTAGEData(plug(0).Recordset.RecordCount - 1, 1) 'ç”µå‹æ•°ç»„
 For i = 0 To plug(0).Recordset.RecordCount - 1
   TempSec = DateDiff("s", "0:0:0", TimeValue(plug(0).Recordset(5).Value))
   'Print TempSec
 If i = 0 Then
 MaxSec = TempSec: MinSec = TempSec
 End If
-If TempSec > MaxSec Then MaxSec = TempSec 'Çó×î´óÖµ
-If TempSec < MinSec Then MinSec = TempSec 'Çó×îĞ¡Öµ
+If TempSec > MaxSec Then MaxSec = TempSec 'æ±‚æœ€å¤§å€¼
+If TempSec < MinSec Then MinSec = TempSec 'æ±‚æœ€å°å€¼
 
-TempACTIVEENERGYY = plug(0).Recordset(4).Value '½«µçÁ¿µÚÒ»¸öÊıÉèÎªyÖá×îĞ¡Öµ
+TempACTIVEENERGYY = plug(0).Recordset(4).Value 'å°†ç”µé‡ç¬¬ä¸€ä¸ªæ•°è®¾ä¸ºyè½´æœ€å°å€¼
 
     If i = 0 Then
 
        MaxACTIVEENERGYY = TempACTIVEENERGYY: MinACTIVEENERGYY = TempACTIVEENERGYY
     End If
 
-    If TempACTIVEENERGYY > MaxACTIVEENERGYY Then MaxACTIVEENERGYY = TempACTIVEENERGYY 'Çó²É¼¯Æ÷µçÁ¿Ö®ºÍYÖá×î´óÖµ
-    If TempACTIVEENERGYY < MinACTIVEENERGYY Then MinACTIVEENERGYY = TempACTIVEENERGYY 'Çó²É¼¯Æ÷µçÁ¿Ö®ºÍYÖá×îĞ¡Öµ
+    If TempACTIVEENERGYY > MaxACTIVEENERGYY Then MaxACTIVEENERGYY = TempACTIVEENERGYY 'æ±‚é‡‡é›†å™¨ç”µé‡ä¹‹å’ŒYè½´æœ€å¤§å€¼
+    If TempACTIVEENERGYY < MinACTIVEENERGYY Then MinACTIVEENERGYY = TempACTIVEENERGYY 'æ±‚é‡‡é›†å™¨ç”µé‡ä¹‹å’ŒYè½´æœ€å°å€¼
 
 
-VOLTAGEData(i, 0) = TimeValue(plug(0).Recordset(5).Value) 'µÚ6ÁĞÊ±¼äÖµ´æ·ÅµçÑ¹XÖáÊı¾İ
+VOLTAGEData(i, 0) = TimeValue(plug(0).Recordset(5).Value) 'ç¬¬6åˆ—æ—¶é—´å€¼å­˜æ”¾ç”µå‹Xè½´æ•°æ®
 
-CURRENTData(i, 0) = TimeValue(plug(0).Recordset(5).Value) 'µÚ6ÁĞÊ±¼äÖµ´æ·ÅµçÁ÷XÖáÊı¾İ
-Mydata(i, 0) = TimeValue(plug(0).Recordset(5).Value) 'µÚ6ÁĞÊ±¼äÖµ´æ·ÅXÖáÊı¾İ
-Mydata(i, 1) = plug(0).Recordset(4).Value 'µÚ5ÁĞµçÁ¿´æ·ÅYÖáÊı¾İ
-'MyData(i, 2) = plug(0).Recordset(1).Value 'µÚ2ÁĞ´æ·ÅYÖáÊı¾İ
+CURRENTData(i, 0) = TimeValue(plug(0).Recordset(5).Value) 'ç¬¬6åˆ—æ—¶é—´å€¼å­˜æ”¾ç”µæµXè½´æ•°æ®
+Mydata(i, 0) = TimeValue(plug(0).Recordset(5).Value) 'ç¬¬6åˆ—æ—¶é—´å€¼å­˜æ”¾Xè½´æ•°æ®
+Mydata(i, 1) = plug(0).Recordset(4).Value 'ç¬¬5åˆ—ç”µé‡å­˜æ”¾Yè½´æ•°æ®
+'MyData(i, 2) = plug(0).Recordset(1).Value 'ç¬¬2åˆ—å­˜æ”¾Yè½´æ•°æ®
 
-VOLTAGEData(i, 1) = plug(0).Recordset(2).Value 'µÚ3ÁĞ´æÈëµçÑ¹YÖáÊı¾İ
-CURRENTData(i, 1) = plug(0).Recordset(3).Value 'µÚ4ÁĞ´æÈëµçÁ÷YÖáÊı¾İ
+VOLTAGEData(i, 1) = plug(0).Recordset(2).Value 'ç¬¬3åˆ—å­˜å…¥ç”µå‹Yè½´æ•°æ®
+CURRENTData(i, 1) = plug(0).Recordset(3).Value 'ç¬¬4åˆ—å­˜å…¥ç”µæµYè½´æ•°æ®
          plug(0).Recordset.MoveNext
 
 Next i
           
           
-           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//µÚÒ»ÌõÎªÀíÏëÇúÏß,ÉèÖÃÎªÀ¶É«
-        .Plot.SeriesCollection(1).Pen.Width = 50 '//ÉèÖÃÎª½ÏÏ¸
+           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//ç¬¬ä¸€æ¡ä¸ºç†æƒ³æ›²çº¿,è®¾ç½®ä¸ºè“è‰²
+        .Plot.SeriesCollection(1).Pen.Width = 50 '//è®¾ç½®ä¸ºè¾ƒç»†
        
         
           .Plot.Axis(VtChAxisIdX).ValueScale.Maximum = MaxSec * DblSec
@@ -1482,7 +1482,7 @@ Next i
   
     .Plot.Axis(VtChAxisIdY).ValueScale.Maximum = MaxACTIVEENERGYY + 0.1
   .Plot.Axis(VtChAxisIdY).ValueScale.Minimum = MinACTIVEENERGYY
- .ChartData = Mydata 'µçÁ¿Êı¾İ?
+ .ChartData = Mydata 'ç”µé‡æ•°æ®?
  
  '&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 With VOLTAGEchart
@@ -1491,8 +1491,8 @@ With VOLTAGEchart
     .Plot.Axis(VtChAxisIdY).ValueScale.Minimum = 0
   .Plot.Axis(VtChAxisIdX).ValueScale.Minimum = 0
  
-           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//µÚÒ»ÌõÎªÀíÏëÇúÏß,ÉèÖÃÎªÀ¶É«
-        .Plot.SeriesCollection(1).Pen.Width = 10 '//ÉèÖÃÎª½ÏÏ¸
+           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//ç¬¬ä¸€æ¡ä¸ºç†æƒ³æ›²çº¿,è®¾ç½®ä¸ºè“è‰²
+        .Plot.SeriesCollection(1).Pen.Width = 10 '//è®¾ç½®ä¸ºè¾ƒç»†
         
        
         
@@ -1507,8 +1507,8 @@ With CURRENTChart
     .Plot.Axis(VtChAxisIdY).ValueScale.Minimum = 0
   .Plot.Axis(VtChAxisIdX).ValueScale.Minimum = 0
  
-           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//µÚÒ»ÌõÎªÀíÏëÇúÏß,ÉèÖÃÎªÀ¶É«
-        .Plot.SeriesCollection(1).Pen.Width = 40 '//ÉèÖÃÎª½ÏÏ¸
+           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//ç¬¬ä¸€æ¡ä¸ºç†æƒ³æ›²çº¿,è®¾ç½®ä¸ºè“è‰²
+        .Plot.SeriesCollection(1).Pen.Width = 40 '//è®¾ç½®ä¸ºè¾ƒç»†
         
         
         
@@ -1519,17 +1519,17 @@ With CURRENTChart
 
 End With
 
-VOLTAGEchart.ChartData = VOLTAGEData 'Êı¾İ?
+VOLTAGEchart.ChartData = VOLTAGEData 'æ•°æ®?
       End With
 
 
 
   'MSChart1.Plot.UniformAxis = False
 
-'#############################################################################²å×ù¼¶ÎÂ¶ÈÏÔÊ¾
-If plug(1).Recordset.RecordCount > 0 Then  'Èç¹û¼ÇÂ¼¼¯ÓĞÊı¾İ²ÅÏÔÊ¾ÇúÏß
-ReDim TEMPData(plug(1).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå²å×ùµÄÎÂ¶ÈÊı×é
-ReDim HUMIDITYData(plug(1).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå²å×ùµÄÎÂ¶ÈÊı×é
+'#############################################################################æ’åº§çº§æ¸©åº¦æ˜¾ç¤º
+If plug(1).Recordset.RecordCount > 0 Then  'å¦‚æœè®°å½•é›†æœ‰æ•°æ®æ‰æ˜¾ç¤ºæ›²çº¿
+ReDim TEMPData(plug(1).Recordset.RecordCount - 1, 1) 'é‡å®šä¹‰æ’åº§çš„æ¸©åº¦æ•°ç»„
+ReDim HUMIDITYData(plug(1).Recordset.RecordCount - 1, 1) 'é‡å®šä¹‰æ’åº§çš„æ¸©åº¦æ•°ç»„
 
 
   For i = 0 To plug(1).Recordset.RecordCount - 1
@@ -1538,40 +1538,40 @@ ReDim HUMIDITYData(plug(1).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå²å×ùµÄÎÂ¶ÈÊı×é
     If i = 0 Then
        MaxSec = TempSec: MinSec = TempSec
     End If
-    If TempSec > MaxSec Then MaxSec = TempSec 'ÇóxÖá×î´óÖµ
-    If TempSec < MinSec Then MinSec = TempSec 'ÇóxÖá×îĞ¡Öµ
+    If TempSec > MaxSec Then MaxSec = TempSec 'æ±‚xè½´æœ€å¤§å€¼
+    If TempSec < MinSec Then MinSec = TempSec 'æ±‚xè½´æœ€å°å€¼
     
-    Temptemp = plug(1).Recordset(0).Value '½«ÎÂ¶ÈµÚÒ»¸öÊıÉèÎªyÖá×îĞ¡Öµ
-    TempHUMIDITYY = plug(1).Recordset(1).Value '½«Êª¶ÈµÚÒ»¸öÊıÉèÎªyÖá×îĞ¡Öµ
+    Temptemp = plug(1).Recordset(0).Value 'å°†æ¸©åº¦ç¬¬ä¸€ä¸ªæ•°è®¾ä¸ºyè½´æœ€å°å€¼
+    TempHUMIDITYY = plug(1).Recordset(1).Value 'å°†æ¹¿åº¦ç¬¬ä¸€ä¸ªæ•°è®¾ä¸ºyè½´æœ€å°å€¼
     If i = 0 Then
        MaxtempY = Temptemp: MintempY = Temptemp
       MaxHUMIDITYY = TempHUMIDITYY: MinHUMIDITYYY = TempHUMIDITYY
 
     End If
     
-    If Temptemp > MaxtempY Then MaxtempY = Temptemp 'Çó²å×ùÎÂ¶ÈYÖá×î´óÖµ
-    If Temptemp < MintempY Then MintempY = Temptemp 'Çó²å×ùÎÂ¶ÈYÖá×îĞ¡Öµ
-      If TempHUMIDITYY > MaxtempY Then MaxtempY = TempHUMIDITYY 'Çó²å×ùÎÂ¶ÈYÖá×î´óÖµ
-    If TempHUMIDITYY < MinHUMIDITYYY Then MinHUMIDITYYY = TempHUMIDITYY 'Çó²å×ùÊª¶ÈYÖá×îĞ¡Öµ
+    If Temptemp > MaxtempY Then MaxtempY = Temptemp 'æ±‚æ’åº§æ¸©åº¦Yè½´æœ€å¤§å€¼
+    If Temptemp < MintempY Then MintempY = Temptemp 'æ±‚æ’åº§æ¸©åº¦Yè½´æœ€å°å€¼
+      If TempHUMIDITYY > MaxtempY Then MaxtempY = TempHUMIDITYY 'æ±‚æ’åº§æ¸©åº¦Yè½´æœ€å¤§å€¼
+    If TempHUMIDITYY < MinHUMIDITYYY Then MinHUMIDITYYY = TempHUMIDITYY 'æ±‚æ’åº§æ¹¿åº¦Yè½´æœ€å°å€¼
     
-  TEMPData(i, 0) = TimeValue(plug(1).Recordset(4).Value) 'µÚ5ÁĞÊ±¼äÖµ´æ·ÅµçÁ¿XÖáÊı¾İ
-    TEMPData(i, 1) = plug(1).Recordset(0).Value 'µÚ1ÁĞ´æÈëÎÂ¶ÈYÖáÊı¾İ
+  TEMPData(i, 0) = TimeValue(plug(1).Recordset(4).Value) 'ç¬¬5åˆ—æ—¶é—´å€¼å­˜æ”¾ç”µé‡Xè½´æ•°æ®
+    TEMPData(i, 1) = plug(1).Recordset(0).Value 'ç¬¬1åˆ—å­˜å…¥æ¸©åº¦Yè½´æ•°æ®
 
-    HUMIDITYData(i, 0) = TimeValue(plug(1).Recordset(4).Value) 'µÚ5ÁĞÊ±¼äÖµ´æ·ÅµçÁ¿XÖáÊı¾İ
-    HUMIDITYData(i, 1) = plug(1).Recordset(1).Value 'µÚ1ÁĞ´æÈëÎÂ¶ÈYÖáÊı¾İ
+    HUMIDITYData(i, 0) = TimeValue(plug(1).Recordset(4).Value) 'ç¬¬5åˆ—æ—¶é—´å€¼å­˜æ”¾ç”µé‡Xè½´æ•°æ®
+    HUMIDITYData(i, 1) = plug(1).Recordset(1).Value 'ç¬¬1åˆ—å­˜å…¥æ¸©åº¦Yè½´æ•°æ®
    
        plug(1).Recordset.MoveNext
      
     Next i
   
    With TEMPChart
-       .Title.Text = "ÎÂ¶È"
+       .Title.Text = "æ¸©åº¦"
   .Plot.Axis(VtChAxisIdY).ValueScale.Maximum = MaxtempY + 5
   
     .Plot.Axis(VtChAxisIdY).ValueScale.Minimum = MintempY
  
-           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//µÚÒ»ÌõÎªÀíÏëÇúÏß,ÉèÖÃÎªÀ¶É«
-        .Plot.SeriesCollection(1).Pen.Width = 40 '//ÉèÖÃÎª½ÏÏ¸
+           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//ç¬¬ä¸€æ¡ä¸ºç†æƒ³æ›²çº¿,è®¾ç½®ä¸ºè“è‰²
+        .Plot.SeriesCollection(1).Pen.Width = 40 '//è®¾ç½®ä¸ºè¾ƒç»†
         
           .Plot.Axis(VtChAxisIdX).ValueScale.Maximum = MaxSec * DblSec
            .Plot.Axis(VtChAxisIdX).ValueScale.Minimum = MinSec * DblSec
@@ -1580,13 +1580,13 @@ ReDim HUMIDITYData(plug(1).Recordset.RecordCount - 1, 1) 'ÖØ¶¨Òå²å×ùµÄÎÂ¶ÈÊı×é
 End With
       
        With HUMIDITYChart
-           .Title.Text = "Êª¶È"
+           .Title.Text = "æ¹¿åº¦"
   .Plot.Axis(VtChAxisIdY).ValueScale.Maximum = MaxHUMIDITYY + 5
   
     .Plot.Axis(VtChAxisIdY).ValueScale.Minimum = MinHUMIDITYY
  
-           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//µÚÒ»ÌõÎªÀíÏëÇúÏß,ÉèÖÃÎªÀ¶É«
-        .Plot.SeriesCollection(1).Pen.Width = 40 '//ÉèÖÃÎª½ÏÏ¸
+           .Plot.SeriesCollection(1).Pen.VtColor.Set 0, 0, 255 '//ç¬¬ä¸€æ¡ä¸ºç†æƒ³æ›²çº¿,è®¾ç½®ä¸ºè“è‰²
+        .Plot.SeriesCollection(1).Pen.Width = 40 '//è®¾ç½®ä¸ºè¾ƒç»†
         
           .Plot.Axis(VtChAxisIdX).ValueScale.Maximum = MaxSec * DblSec
            .Plot.Axis(VtChAxisIdX).ValueScale.Minimum = MinSec * DblSec
@@ -1594,9 +1594,9 @@ End With
 
 End With
       
-     End If '½áÊøÒ»¸öÓĞÊı¾İµÄ²å×ùÎÂ¶ÈÇúÏßÏÔÊ¾
+     End If 'ç»“æŸä¸€ä¸ªæœ‰æ•°æ®çš„æ’åº§æ¸©åº¦æ›²çº¿æ˜¾ç¤º
     
-'################################################################################end²å×ù¼¶ÎÂ¶ÈÇúÏßÏÔÊ¾
+'################################################################################endæ’åº§çº§æ¸©åº¦æ›²çº¿æ˜¾ç¤º
     
     
     
@@ -1623,26 +1623,26 @@ End With
 
 
 End Sub
-Public Function buildtree() '½¨Á¢µ¼º½Ä¿Â¼Ê÷
-Dim R As New ADODB.Recordset '¸ùÄ¿Â¼½ÚµãµÄ¼ÇÂ¼¼¯¶ÔÏó£¨½¨ÖşÎï£©
-Dim AreaR As New ADODB.Recordset 'Ò»¼¶Ä¿Â¼½ÚµãµÄ¼ÇÂ¼¼¯¶ÔÏó£¨ÇøÓò£©
-Dim collectorR As New ADODB.Recordset '¶ş¼¶Ä¿Â¼½ÚµãµÄ¼ÇÂ¼¼¯¶ÔÏó£¨²É¼¯Æ÷£©
-Dim plugR As New ADODB.Recordset 'Èı¼¶Ä¿Â¼½ÚµãµÄ¼ÇÂ¼¼¯¶ÔÏó£¨²å×ù£©
+Public Function buildtree() 'å»ºç«‹å¯¼èˆªç›®å½•æ ‘
+Dim R As New ADODB.Recordset 'æ ¹ç›®å½•èŠ‚ç‚¹çš„è®°å½•é›†å¯¹è±¡ï¼ˆå»ºç­‘ç‰©ï¼‰
+Dim AreaR As New ADODB.Recordset 'ä¸€çº§ç›®å½•èŠ‚ç‚¹çš„è®°å½•é›†å¯¹è±¡ï¼ˆåŒºåŸŸï¼‰
+Dim collectorR As New ADODB.Recordset 'äºŒçº§ç›®å½•èŠ‚ç‚¹çš„è®°å½•é›†å¯¹è±¡ï¼ˆé‡‡é›†å™¨ï¼‰
+Dim plugR As New ADODB.Recordset 'ä¸‰çº§ç›®å½•èŠ‚ç‚¹çš„è®°å½•é›†å¯¹è±¡ï¼ˆæ’åº§ï¼‰
 
 R.Open "select * from buildingInformation", Adodc1.ConnectionString
 With TreeView1.Nodes
-    'Çå¿ÕÁĞ±í
+    'æ¸…ç©ºåˆ—è¡¨
     .Clear
-    Do Until R.EOF '±éÀú¸ùÄ¿Â¼½Úµã²¢ÏÔÊ¾
+    Do Until R.EOF 'éå†æ ¹ç›®å½•èŠ‚ç‚¹å¹¶æ˜¾ç¤º
         strCode = Trim(R.Fields("BID"))
        ' Print strCode
 '        Select Case Len(strCode)
 '        Case 1
-    TreeView1.Nodes.Add , , "A" & strCode, R.Fields("tagName")  'Treeview µÄ Key ÓÃÓÚÖ±½Ó·ÃÎÊ½Úµã¡£²»ÄÜÊÇÊı×Ö£¬Ç°ÃæÒª¼ÓÒ»¸ö×Ö·û
+    TreeView1.Nodes.Add , , "A" & strCode, R.Fields("tagName")  'Treeview çš„ Key ç”¨äºç›´æ¥è®¿é—®èŠ‚ç‚¹ã€‚ä¸èƒ½æ˜¯æ•°å­—ï¼Œå‰é¢è¦åŠ ä¸€ä¸ªå­—ç¬¦
     
     
 AreaR.Open "select * from areaInformation ", Adodc1.ConnectionString
-      Do Until AreaR.EOF '±éÀúÒ»¼¶ÇøÓòÄ¿Â¼½Úµã²¢ÏÔÊ¾
+      Do Until AreaR.EOF 'éå†ä¸€çº§åŒºåŸŸç›®å½•èŠ‚ç‚¹å¹¶æ˜¾ç¤º
         strCodeAreaBID = Trim(AreaR.Fields("BID"))
         strCodeAreaAID = Trim(AreaR.Fields("AID"))
        ' Print strCodeAreaBID
@@ -1656,7 +1656,7 @@ AreaR.Open "select * from areaInformation ", Adodc1.ConnectionString
          
  
 collectorR.Open "select * from collectorInformation  ", Adodc1.ConnectionString
-        Do Until collectorR.EOF  '±éÀú¶ş¼¶²É¼¯Æ÷Ä¿Â¼½Úµã²¢ÏÔÊ¾
+        Do Until collectorR.EOF  'éå†äºŒçº§é‡‡é›†å™¨ç›®å½•èŠ‚ç‚¹å¹¶æ˜¾ç¤º
         strCodecollectorAID = Trim(collectorR.Fields("AID"))
         strCodecollectorCID = Trim(collectorR.Fields("CID"))
           If strCodecollectorAID = strCodeAreaAID Then
@@ -1667,7 +1667,7 @@ collectorR.Open "select * from collectorInformation  ", Adodc1.ConnectionString
         
         
         plugR.Open "select * from pluginInformation", Adodc1.ConnectionString
-        Do Until plugR.EOF  '±éÀúÈı¼¶²å×ùÄ¿Â¼½Úµã²¢ÏÔÊ¾
+        Do Until plugR.EOF  'éå†ä¸‰çº§æ’åº§ç›®å½•èŠ‚ç‚¹å¹¶æ˜¾ç¤º
         strCodeplugPID = Trim(plugR.Fields("PID"))
         strCodeplugCID = Trim(plugR.Fields("CID"))
           If strCodeplugCID = strCodecollectorCID Then
